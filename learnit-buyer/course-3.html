@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnit - Education & Online Courses Html Template</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+    <!-- Top header area start here -->
+    <div class="header-top-area d-none d-lg-block">
+        <div class="header__container">
+            <div class="header-top__wrp">
+                <ul class="info">
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_35)">
+                                <path
+                                    d="M7.50005 0C4.44464 0 1.95898 2.48566 1.95898 5.54107C1.95898 6.54694 2.41009 7.62875 2.429 7.67438C2.57469 8.02021 2.86218 8.55737 3.06948 8.87223L6.8687 14.6287C7.02417 14.8647 7.25429 15 7.50005 15C7.74582 15 7.97593 14.8647 8.13141 14.6291L11.931 8.87223C12.1386 8.55737 12.4257 8.02021 12.5714 7.67438C12.5903 7.62907 13.0411 6.54726 13.0411 5.54107C13.0411 2.48566 10.5555 0 7.50005 0ZM11.9704 7.42145C11.8403 7.73142 11.5727 8.23109 11.3866 8.51336L7.58708 14.2702C7.51211 14.384 7.48832 14.384 7.41335 14.2702L3.61381 8.51336C3.42769 8.23109 3.16009 7.73109 3.03004 7.42112C3.0245 7.40776 2.61087 6.41199 2.61087 5.54107C2.61087 2.84518 4.80416 0.65189 7.50005 0.65189C10.1959 0.65189 12.3892 2.84518 12.3892 5.54107C12.3892 6.4133 11.9746 7.41167 11.9704 7.42145Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.50016 2.60788C5.88249 2.60788 4.56665 3.92405 4.56665 5.54139C4.56665 7.15873 5.88249 8.47489 7.50016 8.47489C9.11782 8.47489 10.4337 7.15873 10.4337 5.54139C10.4337 3.92405 9.11782 2.60788 7.50016 2.60788ZM7.50016 7.823C6.24233 7.823 5.21854 6.79954 5.21854 5.54139C5.21854 4.28324 6.24233 3.25977 7.50016 3.25977C8.75798 3.25977 9.78177 4.28324 9.78177 5.54139C9.78177 6.79954 8.75798 7.823 7.50016 7.823Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_35">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">6391 Elgin St. Celina, USA</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_50)">
+                                <path
+                                    d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_50">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">info@example.com</a>
+                    </li>
+                </ul>
+                <ul class="socila-link">
+                    <li class="text-white">Follow Us On :</li>
+                    <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area">
+        <div class="header__container">
+            <div class="header__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#0">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="index.html">Online Academy 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">Online Academy 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-3.html">Kitchen Coach</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-4.html">Yoga Instructor</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-5.html">Kindergarten</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-6.html">Onine Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-7.html">Quran Learning</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-8.html">Gym Training</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-9.html">Driving School</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-10.html">Language Course</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">About Us <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-2.html">About Us 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-3.html">About Us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Courses <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="course.html">Courses 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-2.html">Courses 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-3.html">Courses 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-4.html">Courses 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-5.html">Courses 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-6.html">Courses 6</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-7.html">Courses 7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Courses Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="course-details.html">Courses Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="course-details-2.html">Courses Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team.html">Instructors 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-2.html">Instructors 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-3.html">Instructors 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team-details.html">Instructors Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-details-2.html">Instructors Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Event <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="event.html">Event 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="event-2.html">Event 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="event-details.html">Event Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">Faq’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html">Price Table</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="coming-soon.html">Comimg Soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="error.html">404 Error</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="blog.html">Blog Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-standard.html">Blog Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex align-items-center gap-4 gap-xl-5">
+                    <div class="menu-search">
+                        <input type="text" placeholder="Search here..">
+                        <button><i class="fa-regular fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="menu-btns d-none d-lg-flex">
+                        <a class="active" href="#0">Login</a>
+                        <a href="#0">Sign Up</a>
+                    </div>
+                </div>
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-light.svg" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
+                    class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="paragraph-light fs-16">
+                    Unleash the full potential of your website and elevate its online presence with our comprehensive
+                    online courses.
+                </p>
+            </div>
+            <div class="sidebar__search d-block d-lg-none">
+                <input type="text" placeholder="Search here..">
+                <button><i class="fa-regular fa-magnifying-glass"></i></button>
+            </div>
+            <div class="sidebar__contact-info mt-30">
+                <h5 class="text-white mb-20">Contact Info</h5>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="#0">example@example.com</a>
+                    </li>
+                    <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+912659302003">+91
+                            2659
+                            302 003</a>
+                    </li>
+                    <li><i class="fa-solid fa-paper-plane"></i> <a href="#0">info.company@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__btns my-4">
+                <a href="sign-up.html">Sign Up</a>
+                <a class="sign-in" href="sign-in.html">Sign In</a>
+            </div>
+            <div class="sidebar__socials">
+                <ul>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+
+
+    <main>
+
+        <!-- Banner area start here -->
+        <section class="banner-inner-area sub-bg bg-image" data-background="assets/images/bg/banner-inner-bg.png">
+            <div class="banner-inner__shape1">
+                <img class="animation__sunMove" src="assets/images/shape/banner-inner-shape1.png" alt="image">
+            </div>
+            <div class="banner-inner__shape2">
+                <img src="assets/images/shape/banner-inner-shape2.png" alt="image">
+            </div>
+            <div class="banner-inner__shape3">
+                <img class="animation__arryLeftRight" src="assets/images/shape/banner-inner-shape3.png" alt="image">
+            </div>
+            <div class="banner-inner__shape4">
+                <img class="animation__arryUpDown" src="assets/images/shape/banner-inner-shape4.png" alt="image">
+            </div>
+            <div class="banner-inner__shape5">
+                <img src="assets/images/shape/banner-inner-shape5.png" alt="image">
+            </div>
+            <div class="banner-inner__circle">
+                <img class="slide-effect1" src="assets/images/shape/banner-inner-circle.png" alt="image">
+            </div>
+            <div class="banner-inner__circle2">
+                <img class="slide-effect2" src="assets/images/shape/banner-inner-circle2.png" alt="image">
+            </div>
+            <div class="banner-inner__dots">
+                <img class="pxl-image-zoom" src="assets/images/shape/banner-inner-dots.png" alt="image">
+            </div>
+            <div class="container">
+                <div class="banner-inner__content">
+                    <h1>
+                        Archives: Courses 3
+                    </h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><i class="fa-regular fa-angle-right"></i></li>
+                        <li>Courses 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Our class area start here -->
+        <section class="our-class-five-area pt-120 pb-120">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image1.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $49.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>Maths Classes</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg1">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg2">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg3">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image2.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $69.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>Play and Learn</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg4">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg5">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg6">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image3.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $89.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>English Classes</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg7">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg8">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg9">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image1.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $49.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>Maths Classes</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg4">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg1">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg7">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image4.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $69.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>Play and Learn</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg5">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg3">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg4">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="our-class-five__item">
+                            <div class="courses-two__image image">
+                                <img src="assets/images/class/class-five-image5.jpg" alt="image">
+                                <span class="time fs-18">
+                                    $89.00
+                                </span>
+                            </div>
+                            <div class="courses__content p-0 pt-4">
+                                <h3>English Classes</h3>
+                            </div>
+                            <p class="pt-3 pb-25">Lorem ipsum dolor sit amet consectur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <ul class="our-class-five__age pb-10">
+                                <li class="bg9">
+                                    3-5 years
+                                    <span>age</span>
+                                </li>
+                                <li class="bg6">
+                                    5 Days
+                                    <span>weekly</span>
+                                </li>
+                                <li class="bg7">
+                                    4.30 Hors
+                                    <span>time</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pegi justify-content-center mt-60">
+                        <a href="#0" class="border-none"><i
+                                class="fa-regular fa-arrow-left primary-color transition"></i></a>
+                        <a href="#0">01</a>
+                        <a href="#0" class="active">02</a>
+                        <a href="#0">03</a>
+                        <a href="#0" class="border-none"><i
+                                class="fa-regular fa-arrow-right primary-color transition"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our class area end here -->
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer-area sub-bg">
+        <div class="footer__shape-left">
+            <img src="assets/images/shape/footer-shape-left.png" alt="shape">
+        </div>
+        <div class="footer__shape-right sway_Y__animationY">
+            <img src="assets/images/shape/footer-shape-right.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30">
+                        <img src="assets/images/logo/logo.svg" alt="logo">
+                    </a>
+                    <p>Phasellus ultricies aliquam volutpat
+                        ullamcorper laoreet neque, a lacinia
+                        curabitur lacinia mollis</p>
+                    <ul class="mt-25">
+                        <li>
+                            <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.99991 0C3.92603 0 0.611816 3.31421 0.611816 7.38809C0.611816 8.72925 1.21329 10.1717 1.2385 10.2325C1.43276 10.6936 1.81608 11.4098 2.09248 11.8296L7.1581 19.505C7.3654 19.8196 7.67222 20 7.99991 20C8.32759 20 8.63442 19.8196 8.84172 19.5054L13.9078 11.8296C14.1846 11.4098 14.5675 10.6936 14.7618 10.2325C14.787 10.1721 15.388 8.72968 15.388 7.38809C15.388 3.31421 12.0738 0 7.99991 0ZM13.9604 9.89526C13.787 10.3086 13.4302 10.9748 13.182 11.3512L8.11594 19.0269C8.01599 19.1786 7.98426 19.1786 7.88431 19.0269L2.81825 11.3512C2.5701 10.9748 2.21329 10.3081 2.03989 9.89483C2.0325 9.87701 1.481 8.54933 1.481 7.38809C1.481 3.79357 4.40538 0.869187 7.99991 0.869187C11.5944 0.869187 14.5188 3.79357 14.5188 7.38809C14.5188 8.55106 13.966 9.88223 13.9604 9.89526Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="tel:+2086660112" class="p-0">+208-666-0112</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Quick Link</h3>
+                    <ul>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i>About Learnit</a></li>
+                        <li><a href="course.html"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
+                        </li>
+                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor</a>
+                        </li>
+                        <li><a href="team-details.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor
+                                Details</a>
+                        </li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Courses</h3>
+                    <ul>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Computer
+                                Science</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>
+                                Development</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Arts &
+                                Design</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Sale
+                                Marketing</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
+                                Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms"
+                    data-wow-duration="1500ms">
+                    <h3 class="footer-title">Newsletters</h3>
+                    <p class="mb-20">Sing Up For News & Get 30% Off
+                        Your Next Course.</p>
+                    <div class="footer-newsletter">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div
+                    class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
+                        by <a href="#0" class="primary-color">Learnit</a></p>
+                    <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <li><a href="#0">Terms & Condition</a></li>
+                        <li><a href="#0">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

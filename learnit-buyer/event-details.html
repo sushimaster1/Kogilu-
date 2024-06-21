@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnit - Education & Online Courses Html Template</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+    <!-- Top header area start here -->
+    <div class="header-top-area d-none d-lg-block">
+        <div class="header__container">
+            <div class="header-top__wrp">
+                <ul class="info">
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_35)">
+                                <path
+                                    d="M7.50005 0C4.44464 0 1.95898 2.48566 1.95898 5.54107C1.95898 6.54694 2.41009 7.62875 2.429 7.67438C2.57469 8.02021 2.86218 8.55737 3.06948 8.87223L6.8687 14.6287C7.02417 14.8647 7.25429 15 7.50005 15C7.74582 15 7.97593 14.8647 8.13141 14.6291L11.931 8.87223C12.1386 8.55737 12.4257 8.02021 12.5714 7.67438C12.5903 7.62907 13.0411 6.54726 13.0411 5.54107C13.0411 2.48566 10.5555 0 7.50005 0ZM11.9704 7.42145C11.8403 7.73142 11.5727 8.23109 11.3866 8.51336L7.58708 14.2702C7.51211 14.384 7.48832 14.384 7.41335 14.2702L3.61381 8.51336C3.42769 8.23109 3.16009 7.73109 3.03004 7.42112C3.0245 7.40776 2.61087 6.41199 2.61087 5.54107C2.61087 2.84518 4.80416 0.65189 7.50005 0.65189C10.1959 0.65189 12.3892 2.84518 12.3892 5.54107C12.3892 6.4133 11.9746 7.41167 11.9704 7.42145Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.50016 2.60788C5.88249 2.60788 4.56665 3.92405 4.56665 5.54139C4.56665 7.15873 5.88249 8.47489 7.50016 8.47489C9.11782 8.47489 10.4337 7.15873 10.4337 5.54139C10.4337 3.92405 9.11782 2.60788 7.50016 2.60788ZM7.50016 7.823C6.24233 7.823 5.21854 6.79954 5.21854 5.54139C5.21854 4.28324 6.24233 3.25977 7.50016 3.25977C8.75798 3.25977 9.78177 4.28324 9.78177 5.54139C9.78177 6.79954 8.75798 7.823 7.50016 7.823Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_35">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">6391 Elgin St. Celina, USA</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_50)">
+                                <path
+                                    d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_50">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">info@example.com</a>
+                    </li>
+                </ul>
+                <ul class="socila-link">
+                    <li class="text-white">Follow Us On :</li>
+                    <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area">
+        <div class="header__container">
+            <div class="header__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#0">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="index.html">Online Academy 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">Online Academy 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-3.html">Kitchen Coach</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-4.html">Yoga Instructor</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-5.html">Kindergarten</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-6.html">Onine Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-7.html">Quran Learning</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-8.html">Gym Training</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-9.html">Driving School</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-10.html">Language Course</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">About Us <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-2.html">About Us 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-3.html">About Us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Courses <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="course.html">Courses 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-2.html">Courses 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-3.html">Courses 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-4.html">Courses 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-5.html">Courses 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-6.html">Courses 6</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-7.html">Courses 7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Courses Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="course-details.html">Courses Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="course-details-2.html">Courses Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team.html">Instructors 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-2.html">Instructors 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-3.html">Instructors 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team-details.html">Instructors Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-details-2.html">Instructors Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Event <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="event.html">Event 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="event-2.html">Event 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="event-details.html">Event Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">Faq’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html">Price Table</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="coming-soon.html">Comimg Soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="error.html">404 Error</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="blog.html">Blog Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-standard.html">Blog Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex align-items-center gap-4 gap-xl-5">
+                    <div class="menu-search">
+                        <input type="text" placeholder="Search here..">
+                        <button><i class="fa-regular fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="menu-btns d-none d-lg-flex">
+                        <a class="active" href="#0">Login</a>
+                        <a href="#0">Sign Up</a>
+                    </div>
+                </div>
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-light.svg" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
+                    class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="paragraph-light fs-16">
+                    Unleash the full potential of your website and elevate its online presence with our comprehensive
+                    online courses.
+                </p>
+            </div>
+            <div class="sidebar__search d-block d-lg-none">
+                <input type="text" placeholder="Search here..">
+                <button><i class="fa-regular fa-magnifying-glass"></i></button>
+            </div>
+            <div class="sidebar__contact-info mt-30">
+                <h5 class="text-white mb-20">Contact Info</h5>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="#0">example@example.com</a>
+                    </li>
+                    <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+912659302003">+91
+                            2659
+                            302 003</a>
+                    </li>
+                    <li><i class="fa-solid fa-paper-plane"></i> <a href="#0">info.company@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__btns my-4">
+                <a href="sign-up.html">Sign Up</a>
+                <a class="sign-in" href="sign-in.html">Sign In</a>
+            </div>
+            <div class="sidebar__socials">
+                <ul>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+
+
+    <main>
+
+        <!-- Banner area start here -->
+        <section class="banner-inner-area sub-bg bg-image" data-background="assets/images/bg/banner-inner-bg.png">
+            <div class="banner-inner__shape1">
+                <img class="animation__sunMove" src="assets/images/shape/banner-inner-shape1.png" alt="image">
+            </div>
+            <div class="banner-inner__shape2">
+                <img src="assets/images/shape/banner-inner-shape2.png" alt="image">
+            </div>
+            <div class="banner-inner__shape3">
+                <img class="animation__arryLeftRight" src="assets/images/shape/banner-inner-shape3.png" alt="image">
+            </div>
+            <div class="banner-inner__shape4">
+                <img class="animation__arryUpDown" src="assets/images/shape/banner-inner-shape4.png" alt="image">
+            </div>
+            <div class="banner-inner__shape5">
+                <img src="assets/images/shape/banner-inner-shape5.png" alt="image">
+            </div>
+            <div class="banner-inner__circle">
+                <img class="slide-effect1" src="assets/images/shape/banner-inner-circle.png" alt="image">
+            </div>
+            <div class="banner-inner__circle2">
+                <img class="slide-effect2" src="assets/images/shape/banner-inner-circle2.png" alt="image">
+            </div>
+            <div class="banner-inner__dots">
+                <img class="pxl-image-zoom" src="assets/images/shape/banner-inner-dots.png" alt="image">
+            </div>
+            <div class="container">
+                <div class="banner-inner__content">
+                    <h1>
+                        Event Details
+                    </h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><i class="fa-regular fa-angle-right"></i></li>
+                        <li>Event Details</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Event area start here -->
+        <section class="event-details-area pt-120 pb-120">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-8">
+                        <div class="event-details__item-left">
+                            <div class="image">
+                                <img src="assets/images/event/event-details.jpg" alt="image">
+                                <span class="tag">Development</span>
+                            </div>
+                            <h3 class="fs-30 mt-40 mb-30">Financial Analyst Training & Infesting Course</h3>
+                            <p class="mb-20">Consectetur adipisicing elit, sed do eiusmod tempor is incididunt ut labore
+                                et dolore of
+                                magna aliqua. Ut enim ad minim
+                                veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                dolor commodo consequat. Duis
+                                aute irure and dolor in reprehenderit.</p>
+                            <p>The is ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac
+                                augu ehabitasse the is platea
+                                augue thelorem turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat
+                                eros sed istincidunt augue ac
+                                ante rutrum sed the is sodales augue consequat.</p>
+                            <h3 class="fs-30 mb-20 mt-30">Requirements for The Event</h3>
+                            <p>Nulla facilisi. Vestibulum tristique sem in eros eleifend imperdiet. Donec quis convallis
+                                neque. In id lacus pulvinar
+                                lacus, eget vulputate lectus. Ut viverra bibendum lorem, at tempus nibh mattis in. Sed a
+                                massa eget lacus consequat
+                                auctor.</p>
+
+                            <ul class="mt-30">
+                                <li>
+                                    <span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.38397 14.1797C7.34153 14.1797 7.29954 14.171 7.26066 14.1539C7.22178 14.1369 7.18683 14.1121 7.15803 14.0809L1.06612 7.49119C1.02551 7.44726 0.99859 7.39244 0.988651 7.33344C0.978712 7.27445 0.986187 7.21384 1.01016 7.15902C1.03414 7.10421 1.07357 7.05758 1.12364 7.02483C1.17371 6.99208 1.23223 6.97464 1.29206 6.97464H4.22437C4.26839 6.97464 4.31191 6.98409 4.35197 7.00234C4.39204 7.0206 4.42772 7.04723 4.45661 7.08045L6.49255 9.42273C6.71258 8.95239 7.13852 8.16925 7.88597 7.21497C8.99095 5.8042 11.0463 3.7294 14.5627 1.85642C14.6307 1.82023 14.7097 1.81083 14.7843 1.83009C14.8588 1.84936 14.9235 1.89587 14.9654 1.96046C15.0073 2.02504 15.0235 2.103 15.0108 2.17894C14.998 2.25488 14.9573 2.32328 14.8966 2.37064C14.8831 2.38113 13.5273 3.44882 11.967 5.40448C10.5309 7.20417 8.62191 10.1469 7.68255 13.946C7.66605 14.0128 7.62767 14.0721 7.57354 14.1144C7.5194 14.1568 7.45263 14.1799 7.38388 14.1799L7.38397 14.1797Z"
+                                                fill="#181818" />
+                                        </svg>
+                                    </span>
+                                    Ut viverra bibendum lorem, at tempus nibh mattis
+                                </li>
+                                <li>
+                                    <span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.38397 14.1797C7.34153 14.1797 7.29954 14.171 7.26066 14.1539C7.22178 14.1369 7.18683 14.1121 7.15803 14.0809L1.06612 7.49119C1.02551 7.44726 0.99859 7.39244 0.988651 7.33344C0.978712 7.27445 0.986187 7.21384 1.01016 7.15902C1.03414 7.10421 1.07357 7.05758 1.12364 7.02483C1.17371 6.99208 1.23223 6.97464 1.29206 6.97464H4.22437C4.26839 6.97464 4.31191 6.98409 4.35197 7.00234C4.39204 7.0206 4.42772 7.04723 4.45661 7.08045L6.49255 9.42273C6.71258 8.95239 7.13852 8.16925 7.88597 7.21497C8.99095 5.8042 11.0463 3.7294 14.5627 1.85642C14.6307 1.82023 14.7097 1.81083 14.7843 1.83009C14.8588 1.84936 14.9235 1.89587 14.9654 1.96046C15.0073 2.02504 15.0235 2.103 15.0108 2.17894C14.998 2.25488 14.9573 2.32328 14.8966 2.37064C14.8831 2.38113 13.5273 3.44882 11.967 5.40448C10.5309 7.20417 8.62191 10.1469 7.68255 13.946C7.66605 14.0128 7.62767 14.0721 7.57354 14.1144C7.5194 14.1568 7.45263 14.1799 7.38388 14.1799L7.38397 14.1797Z"
+                                                fill="#181818" />
+                                        </svg>
+                                    </span>
+                                    quis nostrud exercitation ullamco laboris nisi
+                                </li>
+                                <li>
+                                    <span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.38397 14.1797C7.34153 14.1797 7.29954 14.171 7.26066 14.1539C7.22178 14.1369 7.18683 14.1121 7.15803 14.0809L1.06612 7.49119C1.02551 7.44726 0.99859 7.39244 0.988651 7.33344C0.978712 7.27445 0.986187 7.21384 1.01016 7.15902C1.03414 7.10421 1.07357 7.05758 1.12364 7.02483C1.17371 6.99208 1.23223 6.97464 1.29206 6.97464H4.22437C4.26839 6.97464 4.31191 6.98409 4.35197 7.00234C4.39204 7.0206 4.42772 7.04723 4.45661 7.08045L6.49255 9.42273C6.71258 8.95239 7.13852 8.16925 7.88597 7.21497C8.99095 5.8042 11.0463 3.7294 14.5627 1.85642C14.6307 1.82023 14.7097 1.81083 14.7843 1.83009C14.8588 1.84936 14.9235 1.89587 14.9654 1.96046C15.0073 2.02504 15.0235 2.103 15.0108 2.17894C14.998 2.25488 14.9573 2.32328 14.8966 2.37064C14.8831 2.38113 13.5273 3.44882 11.967 5.40448C10.5309 7.20417 8.62191 10.1469 7.68255 13.946C7.66605 14.0128 7.62767 14.0721 7.57354 14.1144C7.5194 14.1568 7.45263 14.1799 7.38388 14.1799L7.38397 14.1797Z"
+                                                fill="#181818" />
+                                        </svg>
+                                    </span>
+                                    Duis aute irure and dolor in reprehenderit.
+                                </li>
+                                <li>
+                                    <span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.38397 14.1797C7.34153 14.1797 7.29954 14.171 7.26066 14.1539C7.22178 14.1369 7.18683 14.1121 7.15803 14.0809L1.06612 7.49119C1.02551 7.44726 0.99859 7.39244 0.988651 7.33344C0.978712 7.27445 0.986187 7.21384 1.01016 7.15902C1.03414 7.10421 1.07357 7.05758 1.12364 7.02483C1.17371 6.99208 1.23223 6.97464 1.29206 6.97464H4.22437C4.26839 6.97464 4.31191 6.98409 4.35197 7.00234C4.39204 7.0206 4.42772 7.04723 4.45661 7.08045L6.49255 9.42273C6.71258 8.95239 7.13852 8.16925 7.88597 7.21497C8.99095 5.8042 11.0463 3.7294 14.5627 1.85642C14.6307 1.82023 14.7097 1.81083 14.7843 1.83009C14.8588 1.84936 14.9235 1.89587 14.9654 1.96046C15.0073 2.02504 15.0235 2.103 15.0108 2.17894C14.998 2.25488 14.9573 2.32328 14.8966 2.37064C14.8831 2.38113 13.5273 3.44882 11.967 5.40448C10.5309 7.20417 8.62191 10.1469 7.68255 13.946C7.66605 14.0128 7.62767 14.0721 7.57354 14.1144C7.5194 14.1568 7.45263 14.1799 7.38388 14.1799L7.38397 14.1797Z"
+                                                fill="#181818" />
+                                        </svg>
+                                    </span>
+                                    ante rutrum sed the is sodales augue consequat.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event-details__item-right">
+                            <div class="item mb-30">
+                                <h3>Event Details</h3>
+                                <ul>
+                                    <li>
+                                        <svg class="me-1" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.66406 4.79199C6.3224 4.79199 6.03906 4.50866 6.03906 4.16699V1.66699C6.03906 1.32533 6.3224 1.04199 6.66406 1.04199C7.00573 1.04199 7.28906 1.32533 7.28906 1.66699V4.16699C7.28906 4.50866 7.00573 4.79199 6.66406 4.79199ZM13.3307 4.79199C12.9891 4.79199 12.7057 4.50866 12.7057 4.16699V1.66699C12.7057 1.32533 12.9891 1.04199 13.3307 1.04199C13.6724 1.04199 13.9557 1.32533 13.9557 1.66699V4.16699C13.9557 4.50866 13.6724 4.79199 13.3307 4.79199ZM7.08073 12.0837C6.9724 12.0837 6.86406 12.0587 6.76406 12.017C6.65573 11.9753 6.5724 11.917 6.48906 11.842C6.33906 11.6837 6.2474 11.4753 6.2474 11.2503C6.2474 11.142 6.2724 11.0337 6.31406 10.9337C6.35573 10.8337 6.41406 10.742 6.48906 10.6587C6.5724 10.5837 6.65573 10.5253 6.76406 10.4837C7.06406 10.3587 7.43906 10.4253 7.6724 10.6587C7.8224 10.817 7.91406 11.0337 7.91406 11.2503C7.91406 11.3003 7.90573 11.3587 7.8974 11.417C7.88906 11.467 7.8724 11.517 7.8474 11.567C7.83073 11.617 7.80573 11.667 7.7724 11.717C7.7474 11.7587 7.70573 11.8003 7.6724 11.842C7.51406 11.992 7.2974 12.0837 7.08073 12.0837ZM9.9974 12.0837C9.88906 12.0837 9.78073 12.0587 9.68073 12.017C9.5724 11.9753 9.48906 11.917 9.40573 11.842C9.25573 11.6837 9.16406 11.4753 9.16406 11.2503C9.16406 11.142 9.18906 11.0337 9.23073 10.9337C9.2724 10.8337 9.33073 10.742 9.40573 10.6587C9.48906 10.5837 9.5724 10.5253 9.68073 10.4837C9.98073 10.3503 10.3557 10.4253 10.5891 10.6587C10.7391 10.817 10.8307 11.0337 10.8307 11.2503C10.8307 11.3003 10.8224 11.3587 10.8141 11.417C10.8057 11.467 10.7891 11.517 10.7641 11.567C10.7474 11.617 10.7224 11.667 10.6891 11.717C10.6641 11.7587 10.6224 11.8003 10.5891 11.842C10.4307 11.992 10.2141 12.0837 9.9974 12.0837ZM12.9141 12.0837C12.8057 12.0837 12.6974 12.0587 12.5974 12.017C12.4891 11.9753 12.4057 11.917 12.3224 11.842L12.2224 11.717C12.1908 11.6706 12.1656 11.6201 12.1474 11.567C12.1233 11.5198 12.1065 11.4692 12.0974 11.417C12.0891 11.3587 12.0807 11.3003 12.0807 11.2503C12.0807 11.0337 12.1724 10.817 12.3224 10.6587C12.4057 10.5837 12.4891 10.5253 12.5974 10.4837C12.9057 10.3503 13.2724 10.4253 13.5057 10.6587C13.6557 10.817 13.7474 11.0337 13.7474 11.2503C13.7474 11.3003 13.7391 11.3587 13.7307 11.417C13.7224 11.467 13.7057 11.517 13.6807 11.567C13.6641 11.617 13.6391 11.667 13.6057 11.717C13.5807 11.7587 13.5391 11.8003 13.5057 11.842C13.3474 11.992 13.1307 12.0837 12.9141 12.0837ZM7.08073 15.0003C6.9724 15.0003 6.86406 14.9753 6.76406 14.9337C6.66406 14.892 6.5724 14.8337 6.48906 14.7587C6.33906 14.6003 6.2474 14.3837 6.2474 14.167C6.2474 14.0587 6.2724 13.9503 6.31406 13.8503C6.35573 13.742 6.41406 13.6503 6.48906 13.5753C6.7974 13.267 7.36406 13.267 7.6724 13.5753C7.8224 13.7337 7.91406 13.9503 7.91406 14.167C7.91406 14.3837 7.8224 14.6003 7.6724 14.7587C7.51406 14.9087 7.2974 15.0003 7.08073 15.0003ZM9.9974 15.0003C9.78073 15.0003 9.56406 14.9087 9.40573 14.7587C9.25573 14.6003 9.16406 14.3837 9.16406 14.167C9.16406 14.0587 9.18906 13.9503 9.23073 13.8503C9.2724 13.742 9.33073 13.6503 9.40573 13.5753C9.71406 13.267 10.2807 13.267 10.5891 13.5753C10.6641 13.6503 10.7224 13.742 10.7641 13.8503C10.8057 13.9503 10.8307 14.0587 10.8307 14.167C10.8307 14.3837 10.7391 14.6003 10.5891 14.7587C10.4307 14.9087 10.2141 15.0003 9.9974 15.0003ZM12.9141 15.0003C12.6974 15.0003 12.4807 14.9087 12.3224 14.7587C12.2453 14.6804 12.1856 14.5867 12.1474 14.4837C12.1057 14.3837 12.0807 14.2753 12.0807 14.167C12.0807 14.0587 12.1057 13.9503 12.1474 13.8503C12.1891 13.742 12.2474 13.6503 12.3224 13.5753C12.5141 13.3837 12.8057 13.292 13.0724 13.3503C13.1307 13.3587 13.1807 13.3753 13.2307 13.4003C13.2807 13.417 13.3307 13.442 13.3807 13.4753C13.4224 13.5003 13.4641 13.542 13.5057 13.5753C13.6557 13.7337 13.7474 13.9503 13.7474 14.167C13.7474 14.3837 13.6557 14.6003 13.5057 14.7587C13.3474 14.9087 13.1307 15.0003 12.9141 15.0003ZM17.0807 8.20033H2.91406C2.5724 8.20033 2.28906 7.91699 2.28906 7.57533C2.28906 7.23366 2.5724 6.95033 2.91406 6.95033H17.0807C17.4224 6.95033 17.7057 7.23366 17.7057 7.57533C17.7057 7.91699 17.4224 8.20033 17.0807 8.20033Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M13.3333 18.9587H6.66667C3.625 18.9587 1.875 17.2087 1.875 14.167V7.08366C1.875 4.04199 3.625 2.29199 6.66667 2.29199H13.3333C16.375 2.29199 18.125 4.04199 18.125 7.08366V14.167C18.125 17.2087 16.375 18.9587 13.3333 18.9587ZM6.66667 3.54199C4.28333 3.54199 3.125 4.70033 3.125 7.08366V14.167C3.125 16.5503 4.28333 17.7087 6.66667 17.7087H13.3333C15.7167 17.7087 16.875 16.5503 16.875 14.167V7.08366C16.875 4.70033 15.7167 3.54199 13.3333 3.54199H6.66667Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <p><strong>Date:</strong> February 22, 2024</p>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.5631 11.7661L10.7746 9.67474V5.4145C10.7746 4.98614 10.4283 4.63989 9.99997 4.63989C9.57161 4.63989 9.22536 4.98614 9.22536 5.4145V10.0621C9.22536 10.3061 9.34001 10.5361 9.53521 10.6818L12.6336 13.0056C12.7673 13.1063 12.9302 13.1606 13.0976 13.1605C13.3338 13.1605 13.5662 13.0543 13.718 12.8499C13.9752 12.5082 13.9055 12.0225 13.5631 11.7661Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M10 0C4.48566 0 0 4.48566 0 10C0 15.5143 4.48566 20 10 20C15.5143 20 20 15.5143 20 10C20 4.48566 15.5143 0 10 0ZM10 18.4508C5.34082 18.4508 1.54918 14.6592 1.54918 10C1.54918 5.34082 5.34082 1.54918 10 1.54918C14.66 1.54918 18.4508 5.34082 18.4508 10C18.4508 14.6592 14.6592 18.4508 10 18.4508Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <p><strong>Time:</strong> 9:00 am - 6:00 pm</p>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.00032 0C4.74121 0 2.08984 2.65137 2.08984 5.91047C2.08984 6.9834 2.57103 8.13733 2.59119 8.18601C2.7466 8.55489 3.05325 9.12786 3.27437 9.46371L7.32687 15.604C7.49271 15.8557 7.73817 16 8.00032 16C8.26246 16 8.50792 15.8557 8.67376 15.6043L12.7266 9.46371C12.9481 9.12786 13.2544 8.55489 13.4098 8.18601C13.43 8.13768 13.9108 6.98375 13.9108 5.91047C13.9108 2.65137 11.2594 0 8.00032 0ZM12.7687 7.91621C12.63 8.24685 12.3445 8.77983 12.146 9.08092L8.09315 15.2216C8.01318 15.3429 7.9878 15.3429 7.90784 15.2216L3.85499 9.08092C3.65647 8.77983 3.37103 8.2465 3.2323 7.91586C3.22639 7.90161 2.78519 6.83946 2.78519 5.91047C2.78519 3.03485 5.1247 0.69535 8.00032 0.69535C10.8759 0.69535 13.2154 3.03485 13.2154 5.91047C13.2154 6.84085 12.7732 7.90578 12.7687 7.91621Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M8.00017 2.78223C6.27466 2.78223 4.87109 4.18614 4.87109 5.9113C4.87109 7.63646 6.27466 9.04038 8.00017 9.04038C9.72568 9.04038 11.1292 7.63646 11.1292 5.9113C11.1292 4.18614 9.72568 2.78223 8.00017 2.78223ZM8.00017 8.34503C6.65849 8.34503 5.56644 7.25333 5.56644 5.9113C5.56644 4.56928 6.65849 3.47758 8.00017 3.47758C9.34185 3.47758 10.4339 4.56928 10.4339 5.9113C10.4339 7.25333 9.34185 8.34503 8.00017 8.34503Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <p><strong>Venue:</strong> Home Pasd Center</p>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1374_814)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.99963 11.323C7.94667 11.3231 7.89457 11.3096 7.84831 11.2838C7.80205 11.258 7.76316 11.2208 7.73536 11.1758C7.47826 10.7739 7.21519 10.3758 6.94623 9.98174C5.67801 8.09934 3.94141 5.52267 3.94141 4.0592C3.94141 1.821 5.76106 0.000976562 7.99963 0.000976562C10.2375 0.000976562 12.0579 1.821 12.0579 4.0592C12.0579 5.52267 10.3209 8.10082 9.05303 9.98174C8.78404 10.3758 8.52097 10.7738 8.26391 11.1758C8.23629 11.221 8.19744 11.2584 8.15114 11.2842C8.10483 11.31 8.05264 11.3234 7.99963 11.323ZM7.99963 0.625858C6.10616 0.625858 4.56629 2.1661 4.56629 4.0592C4.56629 5.33111 6.30953 7.91959 7.46444 9.63294C7.66117 9.926 7.84203 10.1929 7.99963 10.4339C8.15687 10.1929 8.33809 9.926 8.53482 9.63294C9.68825 7.91959 11.4315 5.33111 11.4315 4.0592C11.433 2.1661 9.89236 0.625858 7.99963 0.625858Z"
+                                                    fill="#2EB97E" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8.00013 6.2283C7.41192 6.22762 6.848 5.99365 6.43207 5.57772C6.01614 5.16179 5.78217 4.59787 5.78149 4.00966C5.78217 3.42151 6.01609 2.85764 6.43194 2.44173C6.84779 2.02581 7.41162 1.7918 7.99976 1.79102C8.58798 1.7916 9.15194 2.02548 9.56793 2.44134C9.98393 2.85719 10.218 3.42108 10.2188 4.00929C10.2182 4.59757 9.98427 5.16158 9.56833 5.57759C9.15239 5.9936 8.58841 6.22762 8.00013 6.2283ZM8.00013 2.41479C7.57762 2.41518 7.17253 2.58317 6.87373 2.88189C6.57494 3.18062 6.40686 3.58568 6.40637 4.00818C6.40676 4.43076 6.5748 4.83591 6.8736 5.13471C7.17241 5.43352 7.57756 5.60155 8.00013 5.60195C8.42264 5.60146 8.8277 5.43337 9.12642 5.13458C9.42515 4.83579 9.59314 4.43069 9.59353 4.00818C9.59304 3.58574 9.42501 3.18074 9.12629 2.88202C8.82758 2.58331 8.42258 2.41528 8.00013 2.41479ZM5.68885 15.9994C5.65527 15.9994 5.62191 15.9941 5.58993 15.9839L0.969198 14.4426C0.906943 14.4217 0.852832 14.3818 0.814539 14.3285C0.776247 14.2751 0.755717 14.2111 0.75586 14.1454V5.16161C0.755827 5.1121 0.767567 5.06329 0.790112 5.01921C0.812658 4.97513 0.845362 4.93705 0.885526 4.90809C0.92569 4.87914 0.972163 4.86016 1.02111 4.8527C1.07006 4.84525 1.12007 4.84954 1.16703 4.86523L5.23338 6.22055C5.30845 6.24547 5.37125 6.29798 5.40907 6.36745C5.56667 6.65793 5.75012 6.97683 5.95718 7.3153C5.98693 7.36437 6.00264 7.42068 6.00258 7.47807V15.6868C6.00263 15.728 5.99454 15.7687 5.97878 15.8067C5.96301 15.8448 5.93989 15.8793 5.91073 15.9084C5.88157 15.9374 5.84696 15.9604 5.80888 15.976C5.7708 15.9917 5.73001 15.9996 5.68885 15.9994ZM1.38074 13.9214L5.37659 15.2538V7.56554C5.21868 7.305 5.06585 7.04141 4.91817 6.77494L1.38074 5.59383V13.9214Z"
+                                                    fill="#2EB97E" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.68958 15.9999C5.64851 15.9999 5.60784 15.9919 5.56988 15.9762C5.53193 15.9605 5.49745 15.9375 5.46841 15.9084C5.43937 15.8794 5.41635 15.8449 5.40065 15.807C5.38496 15.769 5.3769 15.7283 5.37695 15.6873V7.47854C5.37705 7.41041 5.3994 7.34417 5.44061 7.28992C5.48181 7.23566 5.53961 7.19635 5.60521 7.17796C5.67082 7.15957 5.74063 7.16312 5.80403 7.18806C5.86743 7.21301 5.92095 7.25798 5.95644 7.31613C6.44881 8.12556 6.98917 8.9265 7.4642 9.63333C7.66093 9.92639 7.84178 10.1944 7.99939 10.4343C8.15699 10.1944 8.33785 9.92639 8.53458 9.63333C9.01109 8.9265 9.54997 8.12556 10.0423 7.31576C10.0777 7.25731 10.1312 7.21205 10.1947 7.18693C10.2582 7.1618 10.3283 7.1582 10.394 7.17667C10.4598 7.19515 10.5177 7.23467 10.5588 7.28919C10.6 7.34372 10.6221 7.41023 10.6218 7.47854V14.1474C10.6217 14.213 10.601 14.2769 10.5627 14.3301C10.5243 14.3834 10.4703 14.4232 10.4081 14.4441L5.78739 15.9844C5.75584 15.9948 5.72281 16 5.68958 15.9999ZM6.0022 8.56184V15.2539L9.99805 13.9219V8.56184C9.67657 9.05901 9.35213 9.53994 9.0539 9.9836C8.78503 10.3776 8.52208 10.7757 8.26514 11.1776C8.23687 11.2226 8.19767 11.2596 8.1512 11.2853C8.10472 11.311 8.05249 11.3245 7.99939 11.3245C7.94646 11.3246 7.89439 11.3112 7.84813 11.2855C7.80187 11.2598 7.76297 11.2226 7.73512 11.1776C7.53322 10.8547 7.26119 10.4509 6.94599 9.9836C6.64812 9.53957 6.32516 9.05901 6.0022 8.56184Z"
+                                                    fill="#2EB97E" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.9314 15.9995C14.8978 15.9994 14.8645 15.9942 14.8325 15.984L10.2114 14.4437C10.1492 14.4229 10.0951 14.3831 10.0568 14.3298C10.0185 14.2765 9.99793 14.2126 9.99805 14.147V7.47812C9.99805 7.42091 10.0139 7.3648 10.0438 7.31571C10.5044 6.55648 10.8418 5.92606 11.0736 5.38866C11.1043 5.31666 11.161 5.25885 11.2324 5.22671C11.3038 5.19457 11.3847 5.19046 11.4589 5.21518L15.0303 6.40552C15.0925 6.4263 15.1466 6.46615 15.1849 6.51942C15.2232 6.57269 15.2438 6.63667 15.2437 6.70227V15.6868C15.2437 15.7697 15.2108 15.8491 15.1522 15.9076C15.0936 15.9662 15.0142 15.9995 14.9314 15.9995ZM10.6233 13.9214L14.6188 15.2539V6.92705L11.5294 5.89727C11.3043 6.38153 11.0046 6.93074 10.6229 7.56485L10.6233 13.9214Z"
+                                                    fill="#2EB97E" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1374_814">
+                                                    <rect width="16" height="16" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p><strong>Address:</strong> 2118 Thorndike Cir. got</p>
+                                    </li>
+                                </ul>
+                                <span class="price">Event Free $49.00</span>
+                                <a href="#0" class="btn-one">Join This Event<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                                <div class="share">
+                                    <strong>Share:</strong>
+                                    <div class="social-icons">
+                                        <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3 class="mb-25">Map</h3>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.8398865692!2d-0.2664030556096407!3d51.528739805074714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1715323253262!5m2!1sen!2sbd"
+                                    allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <p class="map-address py-3 d-flex align-items-center"><svg class="me-2" width="16"
+                                        height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1374_874)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99963 11.323C7.94667 11.3231 7.89457 11.3096 7.84831 11.2838C7.80205 11.258 7.76316 11.2208 7.73536 11.1758C7.47826 10.7739 7.21519 10.3758 6.94623 9.98174C5.67801 8.09934 3.94141 5.52267 3.94141 4.0592C3.94141 1.821 5.76106 0.000976562 7.99963 0.000976562C10.2375 0.000976562 12.0579 1.821 12.0579 4.0592C12.0579 5.52267 10.3209 8.10082 9.05303 9.98174C8.78404 10.3758 8.52097 10.7738 8.26391 11.1758C8.23629 11.221 8.19744 11.2584 8.15114 11.2842C8.10483 11.31 8.05264 11.3234 7.99963 11.323ZM7.99963 0.625858C6.10616 0.625858 4.56629 2.1661 4.56629 4.0592C4.56629 5.33111 6.30953 7.91959 7.46444 9.63294C7.66117 9.926 7.84203 10.1929 7.99963 10.4339C8.15687 10.1929 8.33809 9.926 8.53482 9.63294C9.68825 7.91959 11.4315 5.33111 11.4315 4.0592C11.433 2.1661 9.89236 0.625858 7.99963 0.625858Z"
+                                                fill="#2EB97E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.00013 6.2283C7.41192 6.22762 6.848 5.99365 6.43207 5.57772C6.01614 5.16179 5.78217 4.59787 5.78149 4.00966C5.78217 3.42151 6.01609 2.85764 6.43194 2.44173C6.84779 2.02581 7.41162 1.7918 7.99976 1.79102C8.58798 1.7916 9.15194 2.02548 9.56793 2.44134C9.98393 2.85719 10.218 3.42108 10.2188 4.00929C10.2182 4.59757 9.98427 5.16158 9.56833 5.57759C9.15239 5.9936 8.58841 6.22762 8.00013 6.2283ZM8.00013 2.41479C7.57762 2.41518 7.17253 2.58317 6.87373 2.88189C6.57494 3.18062 6.40686 3.58568 6.40637 4.00818C6.40676 4.43076 6.5748 4.83591 6.8736 5.13471C7.17241 5.43352 7.57756 5.60155 8.00013 5.60195C8.42264 5.60146 8.8277 5.43337 9.12642 5.13458C9.42515 4.83579 9.59314 4.43069 9.59353 4.00818C9.59304 3.58574 9.42501 3.18074 9.12629 2.88202C8.82758 2.58331 8.42258 2.41528 8.00013 2.41479ZM5.68885 15.9994C5.65527 15.9994 5.62191 15.9941 5.58993 15.9839L0.969198 14.4426C0.906943 14.4217 0.852832 14.3818 0.814539 14.3285C0.776247 14.2751 0.755717 14.2111 0.75586 14.1454V5.16161C0.755827 5.1121 0.767567 5.06329 0.790112 5.01921C0.812658 4.97513 0.845362 4.93705 0.885526 4.90809C0.92569 4.87914 0.972163 4.86016 1.02111 4.8527C1.07006 4.84525 1.12007 4.84954 1.16703 4.86523L5.23338 6.22055C5.30845 6.24547 5.37125 6.29798 5.40907 6.36745C5.56667 6.65793 5.75012 6.97683 5.95718 7.3153C5.98693 7.36437 6.00264 7.42068 6.00258 7.47807V15.6868C6.00263 15.728 5.99454 15.7687 5.97878 15.8067C5.96301 15.8448 5.93989 15.8793 5.91073 15.9084C5.88157 15.9374 5.84696 15.9604 5.80888 15.976C5.7708 15.9917 5.73001 15.9996 5.68885 15.9994ZM1.38074 13.9214L5.37659 15.2538V7.56554C5.21868 7.305 5.06585 7.04141 4.91817 6.77494L1.38074 5.59383V13.9214Z"
+                                                fill="#2EB97E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.68958 15.9999C5.64851 15.9999 5.60784 15.9919 5.56988 15.9762C5.53193 15.9605 5.49745 15.9375 5.46841 15.9084C5.43937 15.8794 5.41635 15.8449 5.40065 15.807C5.38496 15.769 5.3769 15.7283 5.37695 15.6873V7.47854C5.37705 7.41041 5.3994 7.34417 5.44061 7.28992C5.48181 7.23566 5.53961 7.19635 5.60521 7.17796C5.67082 7.15957 5.74063 7.16312 5.80403 7.18806C5.86743 7.21301 5.92095 7.25798 5.95644 7.31613C6.44881 8.12556 6.98917 8.9265 7.4642 9.63333C7.66093 9.92639 7.84178 10.1944 7.99939 10.4343C8.15699 10.1944 8.33785 9.92639 8.53458 9.63333C9.01109 8.9265 9.54997 8.12556 10.0423 7.31576C10.0777 7.25731 10.1312 7.21205 10.1947 7.18693C10.2582 7.1618 10.3283 7.1582 10.394 7.17667C10.4598 7.19515 10.5177 7.23467 10.5588 7.28919C10.6 7.34372 10.6221 7.41023 10.6218 7.47854V14.1474C10.6217 14.213 10.601 14.2769 10.5627 14.3301C10.5243 14.3834 10.4703 14.4232 10.4081 14.4441L5.78739 15.9844C5.75584 15.9948 5.72281 16 5.68958 15.9999ZM6.0022 8.56184V15.2539L9.99805 13.9219V8.56184C9.67657 9.05901 9.35213 9.53994 9.0539 9.9836C8.78503 10.3776 8.52208 10.7757 8.26514 11.1776C8.23687 11.2226 8.19767 11.2596 8.1512 11.2853C8.10472 11.311 8.05249 11.3245 7.99939 11.3245C7.94646 11.3246 7.89439 11.3112 7.84813 11.2855C7.80187 11.2598 7.76297 11.2226 7.73512 11.1776C7.53322 10.8547 7.26119 10.4509 6.94599 9.9836C6.64812 9.53957 6.32516 9.05901 6.0022 8.56184Z"
+                                                fill="#2EB97E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M14.9314 15.9995C14.8978 15.9994 14.8645 15.9942 14.8325 15.984L10.2114 14.4437C10.1492 14.4229 10.0951 14.3831 10.0568 14.3298C10.0185 14.2765 9.99793 14.2126 9.99805 14.147V7.47812C9.99805 7.42091 10.0139 7.3648 10.0438 7.31571C10.5044 6.55648 10.8418 5.92606 11.0736 5.38866C11.1043 5.31666 11.161 5.25885 11.2324 5.22671C11.3038 5.19457 11.3847 5.19046 11.4589 5.21518L15.0303 6.40552C15.0925 6.4263 15.1466 6.46615 15.1849 6.51942C15.2232 6.57269 15.2438 6.63667 15.2437 6.70227V15.6868C15.2437 15.7697 15.2108 15.8491 15.1522 15.9076C15.0936 15.9662 15.0142 15.9995 14.9314 15.9995ZM10.6233 13.9214L14.6188 15.2539V6.92705L11.5294 5.89727C11.3043 6.38153 11.0046 6.93074 10.6229 7.56485L10.6233 13.9214Z"
+                                                fill="#2EB97E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1374_874">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <strong class="secondary-color fw-500"> Address: </strong> 2118 Thorndike Cir. got
+                                </p>
+                                <a href="#0" class="btn-one">Get Directions<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event area end here -->
+
+        <!-- Team area start here -->
+        <section class="team-two-area pb-120">
+            <div class="container">
+                <div class="section-header text-center mb-60">
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Speakers</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Event <span>Speakers <img
+                                src="assets/images/shape/header-shape.png" alt="shape">
+                        </span>
+                    </h2>
+                </div>
+                <div class="swiper team-two__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-two-image1.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details-2.html" class="primary-hover">Mahbub Rohman</a>
+                                </h4>
+                                <span>Marketing Expert</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-two-image2.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details-2.html" class="primary-hover">Suborna Islam</a>
+                                </h4>
+                                <span>UI/UX Designer</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-two-image3.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details-2.html" class="primary-hover">Heaven Alacio</a>
+                                </h4>
+                                <span>WordPress Expert</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-two-image4.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details-2.html" class="primary-hover">Mukta Rahman</a>
+                                </h4>
+                                <span>UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team area end here -->
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer-area sub-bg">
+        <div class="footer__shape-left">
+            <img src="assets/images/shape/footer-shape-left.png" alt="shape">
+        </div>
+        <div class="footer__shape-right sway_Y__animationY">
+            <img src="assets/images/shape/footer-shape-right.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30">
+                        <img src="assets/images/logo/logo.svg" alt="logo">
+                    </a>
+                    <p>Phasellus ultricies aliquam volutpat
+                        ullamcorper laoreet neque, a lacinia
+                        curabitur lacinia mollis</p>
+                    <ul class="mt-25">
+                        <li>
+                            <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.99991 0C3.92603 0 0.611816 3.31421 0.611816 7.38809C0.611816 8.72925 1.21329 10.1717 1.2385 10.2325C1.43276 10.6936 1.81608 11.4098 2.09248 11.8296L7.1581 19.505C7.3654 19.8196 7.67222 20 7.99991 20C8.32759 20 8.63442 19.8196 8.84172 19.5054L13.9078 11.8296C14.1846 11.4098 14.5675 10.6936 14.7618 10.2325C14.787 10.1721 15.388 8.72968 15.388 7.38809C15.388 3.31421 12.0738 0 7.99991 0ZM13.9604 9.89526C13.787 10.3086 13.4302 10.9748 13.182 11.3512L8.11594 19.0269C8.01599 19.1786 7.98426 19.1786 7.88431 19.0269L2.81825 11.3512C2.5701 10.9748 2.21329 10.3081 2.03989 9.89483C2.0325 9.87701 1.481 8.54933 1.481 7.38809C1.481 3.79357 4.40538 0.869187 7.99991 0.869187C11.5944 0.869187 14.5188 3.79357 14.5188 7.38809C14.5188 8.55106 13.966 9.88223 13.9604 9.89526Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="tel:+2086660112" class="p-0">+208-666-0112</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Quick Link</h3>
+                    <ul>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i>About Learnit</a></li>
+                        <li><a href="course.html"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
+                        </li>
+                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor</a>
+                        </li>
+                        <li><a href="team-details.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor
+                                Details</a>
+                        </li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Courses</h3>
+                    <ul>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Computer
+                                Science</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>
+                                Development</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Arts &
+                                Design</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Sale
+                                Marketing</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
+                                Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms"
+                    data-wow-duration="1500ms">
+                    <h3 class="footer-title">Newsletters</h3>
+                    <p class="mb-20">Sing Up For News & Get 30% Off
+                        Your Next Course.</p>
+                    <div class="footer-newsletter">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div
+                    class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
+                        by <a href="#0" class="primary-color">Learnit</a></p>
+                    <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <li><a href="#0">Terms & Condition</a></li>
+                        <li><a href="#0">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

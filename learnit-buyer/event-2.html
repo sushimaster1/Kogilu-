@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnit - Education & Online Courses Html Template</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+    <!-- Top header area start here -->
+    <div class="header-top-area d-none d-lg-block">
+        <div class="header__container">
+            <div class="header-top__wrp">
+                <ul class="info">
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_35)">
+                                <path
+                                    d="M7.50005 0C4.44464 0 1.95898 2.48566 1.95898 5.54107C1.95898 6.54694 2.41009 7.62875 2.429 7.67438C2.57469 8.02021 2.86218 8.55737 3.06948 8.87223L6.8687 14.6287C7.02417 14.8647 7.25429 15 7.50005 15C7.74582 15 7.97593 14.8647 8.13141 14.6291L11.931 8.87223C12.1386 8.55737 12.4257 8.02021 12.5714 7.67438C12.5903 7.62907 13.0411 6.54726 13.0411 5.54107C13.0411 2.48566 10.5555 0 7.50005 0ZM11.9704 7.42145C11.8403 7.73142 11.5727 8.23109 11.3866 8.51336L7.58708 14.2702C7.51211 14.384 7.48832 14.384 7.41335 14.2702L3.61381 8.51336C3.42769 8.23109 3.16009 7.73109 3.03004 7.42112C3.0245 7.40776 2.61087 6.41199 2.61087 5.54107C2.61087 2.84518 4.80416 0.65189 7.50005 0.65189C10.1959 0.65189 12.3892 2.84518 12.3892 5.54107C12.3892 6.4133 11.9746 7.41167 11.9704 7.42145Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.50016 2.60788C5.88249 2.60788 4.56665 3.92405 4.56665 5.54139C4.56665 7.15873 5.88249 8.47489 7.50016 8.47489C9.11782 8.47489 10.4337 7.15873 10.4337 5.54139C10.4337 3.92405 9.11782 2.60788 7.50016 2.60788ZM7.50016 7.823C6.24233 7.823 5.21854 6.79954 5.21854 5.54139C5.21854 4.28324 6.24233 3.25977 7.50016 3.25977C8.75798 3.25977 9.78177 4.28324 9.78177 5.54139C9.78177 6.79954 8.75798 7.823 7.50016 7.823Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_35">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">6391 Elgin St. Celina, USA</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_50)">
+                                <path
+                                    d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_50">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">info@example.com</a>
+                    </li>
+                </ul>
+                <ul class="socila-link">
+                    <li class="text-white">Follow Us On :</li>
+                    <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area">
+        <div class="header__container">
+            <div class="header__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#0">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="index.html">Online Academy 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">Online Academy 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-3.html">Kitchen Coach</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-4.html">Yoga Instructor</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-5.html">Kindergarten</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-6.html">Onine Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-7.html">Quran Learning</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-8.html">Gym Training</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-9.html">Driving School</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-10.html">Language Course</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">About Us <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-2.html">About Us 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-3.html">About Us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Courses <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="course.html">Courses 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-2.html">Courses 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-3.html">Courses 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-4.html">Courses 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-5.html">Courses 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-6.html">Courses 6</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-7.html">Courses 7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Courses Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="course-details.html">Courses Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="course-details-2.html">Courses Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team.html">Instructors 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-2.html">Instructors 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-3.html">Instructors 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team-details.html">Instructors Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-details-2.html">Instructors Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Event <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="event.html">Event 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="event-2.html">Event 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="event-details.html">Event Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">Faq’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html">Price Table</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="coming-soon.html">Comimg Soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="error.html">404 Error</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="blog.html">Blog Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-standard.html">Blog Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex align-items-center gap-4 gap-xl-5">
+                    <div class="menu-search">
+                        <input type="text" placeholder="Search here..">
+                        <button><i class="fa-regular fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="menu-btns d-none d-lg-flex">
+                        <a class="active" href="#0">Login</a>
+                        <a href="#0">Sign Up</a>
+                    </div>
+                </div>
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-light.svg" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
+                    class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="paragraph-light fs-16">
+                    Unleash the full potential of your website and elevate its online presence with our comprehensive
+                    online courses.
+                </p>
+            </div>
+            <div class="sidebar__search d-block d-lg-none">
+                <input type="text" placeholder="Search here..">
+                <button><i class="fa-regular fa-magnifying-glass"></i></button>
+            </div>
+            <div class="sidebar__contact-info mt-30">
+                <h5 class="text-white mb-20">Contact Info</h5>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="#0">example@example.com</a>
+                    </li>
+                    <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+912659302003">+91
+                            2659
+                            302 003</a>
+                    </li>
+                    <li><i class="fa-solid fa-paper-plane"></i> <a href="#0">info.company@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__btns my-4">
+                <a href="sign-up.html">Sign Up</a>
+                <a class="sign-in" href="sign-in.html">Sign In</a>
+            </div>
+            <div class="sidebar__socials">
+                <ul>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+
+
+    <main>
+
+        <!-- Banner area start here -->
+        <section class="banner-inner-area sub-bg bg-image" data-background="assets/images/bg/banner-inner-bg.png">
+            <div class="banner-inner__shape1">
+                <img class="animation__sunMove" src="assets/images/shape/banner-inner-shape1.png" alt="image">
+            </div>
+            <div class="banner-inner__shape2">
+                <img src="assets/images/shape/banner-inner-shape2.png" alt="image">
+            </div>
+            <div class="banner-inner__shape3">
+                <img class="animation__arryLeftRight" src="assets/images/shape/banner-inner-shape3.png" alt="image">
+            </div>
+            <div class="banner-inner__shape4">
+                <img class="animation__arryUpDown" src="assets/images/shape/banner-inner-shape4.png" alt="image">
+            </div>
+            <div class="banner-inner__shape5">
+                <img src="assets/images/shape/banner-inner-shape5.png" alt="image">
+            </div>
+            <div class="banner-inner__circle">
+                <img class="slide-effect1" src="assets/images/shape/banner-inner-circle.png" alt="image">
+            </div>
+            <div class="banner-inner__circle2">
+                <img class="slide-effect2" src="assets/images/shape/banner-inner-circle2.png" alt="image">
+            </div>
+            <div class="banner-inner__dots">
+                <img class="pxl-image-zoom" src="assets/images/shape/banner-inner-dots.png" alt="image">
+            </div>
+            <div class="container">
+                <div class="banner-inner__content">
+                    <h1>
+                        Event 2
+                    </h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><i class="fa-regular fa-angle-right"></i></li>
+                        <li>Event 2</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Event area start here -->
+        <section class="event-five-area pt-120 pb-120">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image1.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$10.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image2.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$20.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image3.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$30.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image1.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$10.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image2.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$20.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="event-five__item">
+                            <div class="event-five__image image">
+                                <img src="assets/images/event/event-five-image3.jpg" alt="image">
+                                <span class="time">
+                                    <svg class="me-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.33447 3.33325C4.06114 3.33325 3.83447 3.10659 3.83447 2.83325V0.833252C3.83447 0.559919 4.06114 0.333252 4.33447 0.333252C4.60781 0.333252 4.83447 0.559919 4.83447 0.833252V2.83325C4.83447 3.10659 4.60781 3.33325 4.33447 3.33325ZM9.66781 3.33325C9.39447 3.33325 9.16781 3.10659 9.16781 2.83325V0.833252C9.16781 0.559919 9.39447 0.333252 9.66781 0.333252C9.94114 0.333252 10.1678 0.559919 10.1678 0.833252V2.83325C10.1678 3.10659 9.94114 3.33325 9.66781 3.33325ZM4.66781 9.16659C4.58114 9.16659 4.49447 9.14659 4.41447 9.11325C4.32781 9.07992 4.26114 9.03325 4.19447 8.97325C4.07447 8.84659 4.00114 8.67992 4.00114 8.49992C4.00114 8.41325 4.02114 8.32659 4.05447 8.24659C4.08781 8.16659 4.13447 8.09325 4.19447 8.02659C4.26114 7.96659 4.32781 7.91992 4.41447 7.88659C4.65447 7.78659 4.95447 7.83992 5.14114 8.02659C5.26114 8.15325 5.33447 8.32659 5.33447 8.49992C5.33447 8.53992 5.32781 8.58659 5.32114 8.63325C5.31447 8.67325 5.30114 8.71325 5.28114 8.75325C5.26781 8.79325 5.24781 8.83325 5.22114 8.87325C5.20114 8.90659 5.16781 8.93992 5.14114 8.97325C5.01447 9.09325 4.84114 9.16659 4.66781 9.16659ZM7.00114 9.16659C6.91447 9.16659 6.82781 9.14659 6.74781 9.11325C6.66114 9.07992 6.59447 9.03325 6.52781 8.97325C6.40781 8.84659 6.33447 8.67992 6.33447 8.49992C6.33447 8.41325 6.35447 8.32659 6.38781 8.24659C6.42114 8.16659 6.46781 8.09325 6.52781 8.02659C6.59447 7.96659 6.66114 7.91992 6.74781 7.88659C6.98781 7.77992 7.28781 7.83992 7.47447 8.02659C7.59447 8.15325 7.66781 8.32659 7.66781 8.49992C7.66781 8.53992 7.66114 8.58659 7.65447 8.63325C7.64781 8.67325 7.63447 8.71325 7.61447 8.75325C7.60114 8.79325 7.58114 8.83325 7.55447 8.87325C7.53447 8.90659 7.50114 8.93992 7.47447 8.97325C7.34781 9.09325 7.17447 9.16659 7.00114 9.16659ZM9.33447 9.16659C9.24781 9.16659 9.16114 9.14659 9.08114 9.11325C8.99447 9.07992 8.92781 9.03325 8.86114 8.97325L8.78114 8.87325C8.75589 8.8361 8.73571 8.79574 8.72114 8.75325C8.70188 8.71548 8.6884 8.67503 8.68114 8.63325C8.67447 8.58659 8.66781 8.53992 8.66781 8.49992C8.66781 8.32659 8.74114 8.15325 8.86114 8.02659C8.92781 7.96659 8.99447 7.91992 9.08114 7.88659C9.32781 7.77992 9.62114 7.83992 9.80781 8.02659C9.92781 8.15325 10.0011 8.32659 10.0011 8.49992C10.0011 8.53992 9.99447 8.58659 9.98781 8.63325C9.98114 8.67325 9.96781 8.71325 9.94781 8.75325C9.93447 8.79325 9.91447 8.83325 9.88781 8.87325C9.86781 8.90659 9.83447 8.93992 9.80781 8.97325C9.68114 9.09325 9.50781 9.16659 9.33447 9.16659ZM4.66781 11.4999C4.58114 11.4999 4.49447 11.4799 4.41447 11.4466C4.33447 11.4133 4.26114 11.3666 4.19447 11.3066C4.07447 11.1799 4.00114 11.0066 4.00114 10.8333C4.00114 10.7466 4.02114 10.6599 4.05447 10.5799C4.08781 10.4933 4.13447 10.4199 4.19447 10.3599C4.44114 10.1133 4.89447 10.1133 5.14114 10.3599C5.26114 10.4866 5.33447 10.6599 5.33447 10.8333C5.33447 11.0066 5.26114 11.1799 5.14114 11.3066C5.01447 11.4266 4.84114 11.4999 4.66781 11.4999ZM7.00114 11.4999C6.82781 11.4999 6.65447 11.4266 6.52781 11.3066C6.40781 11.1799 6.33447 11.0066 6.33447 10.8333C6.33447 10.7466 6.35447 10.6599 6.38781 10.5799C6.42114 10.4933 6.46781 10.4199 6.52781 10.3599C6.77447 10.1133 7.22781 10.1133 7.47447 10.3599C7.53447 10.4199 7.58114 10.4933 7.61447 10.5799C7.64781 10.6599 7.66781 10.7466 7.66781 10.8333C7.66781 11.0066 7.59447 11.1799 7.47447 11.3066C7.34781 11.4266 7.17447 11.4999 7.00114 11.4999ZM9.33447 11.4999C9.16114 11.4999 8.98781 11.4266 8.86114 11.3066C8.79945 11.244 8.75174 11.169 8.72114 11.0866C8.68781 11.0066 8.66781 10.9199 8.66781 10.8333C8.66781 10.7466 8.68781 10.6599 8.72114 10.5799C8.75447 10.4933 8.80114 10.4199 8.86114 10.3599C9.01447 10.2066 9.24781 10.1333 9.46114 10.1799C9.50781 10.1866 9.54781 10.1999 9.58781 10.2199C9.62781 10.2333 9.66781 10.2533 9.70781 10.2799C9.74114 10.2999 9.77447 10.3333 9.80781 10.3599C9.92781 10.4866 10.0011 10.6599 10.0011 10.8333C10.0011 11.0066 9.92781 11.1799 9.80781 11.3066C9.68114 11.4266 9.50781 11.4999 9.33447 11.4999ZM12.6678 6.05992H1.33447C1.06114 6.05992 0.834473 5.83325 0.834473 5.55992C0.834473 5.28659 1.06114 5.05992 1.33447 5.05992H12.6678C12.9411 5.05992 13.1678 5.28659 13.1678 5.55992C13.1678 5.83325 12.9411 6.05992 12.6678 6.05992Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.66667 14.6666H4.33333C1.9 14.6666 0.5 13.2666 0.5 10.8333V5.16659C0.5 2.73325 1.9 1.33325 4.33333 1.33325H9.66667C12.1 1.33325 13.5 2.73325 13.5 5.16659V10.8333C13.5 13.2666 12.1 14.6666 9.66667 14.6666ZM4.33333 2.33325C2.42667 2.33325 1.5 3.25992 1.5 5.16659V10.8333C1.5 12.7399 2.42667 13.6666 4.33333 13.6666H9.66667C11.5733 13.6666 12.5 12.7399 12.5 10.8333V5.16659C12.5 3.25992 11.5733 2.33325 9.66667 2.33325H4.33333Z"
+                                            fill="white" />
+                                    </svg>
+                                    Jan 16, 2024
+                                </span>
+                            </div>
+                            <div class="event-five__content">
+                                <ul class="d-flex align-items-center gap-4 mb-10 mt-4">
+                                    <li>
+                                        <svg class="me-1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.7847 1.98206C11.5066 0.703906 9.80717 0 7.99961 0C6.19205 0 4.49261 0.703906 3.21448 1.98206C1.93633 3.26025 1.23242 4.95962 1.23242 6.76716C1.23242 10.4238 4.68986 13.4652 6.54733 15.0991C6.80545 15.3262 7.02836 15.5223 7.20595 15.6882C7.42845 15.896 7.71405 15.9999 7.99958 15.9999C8.28517 15.9999 8.5707 15.896 8.79324 15.6882C8.97083 15.5223 9.19374 15.3262 9.45186 15.0991C11.3093 13.4652 14.7668 10.4238 14.7668 6.76716C14.7667 4.95962 14.0629 3.26025 12.7847 1.98206ZM8.8328 14.3954C8.56902 14.6275 8.34124 14.8279 8.15342 15.0033C8.06714 15.0838 7.93202 15.0838 7.8457 15.0033C7.65792 14.8278 7.43011 14.6274 7.16633 14.3954C5.42008 12.8593 2.16961 9.99997 2.16961 6.76719C2.16961 3.55256 4.78489 0.937281 7.99955 0.937281C11.2142 0.937281 13.8295 3.55256 13.8295 6.76719C13.8295 9.99997 10.579 12.8593 8.8328 14.3954Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M7.9998 3.5293C6.35539 3.5293 5.01758 4.86708 5.01758 6.51148C5.01758 8.15589 6.35539 9.49367 7.9998 9.49367C9.6442 9.49367 10.982 8.15589 10.982 6.51148C10.982 4.86708 9.6442 3.5293 7.9998 3.5293ZM7.9998 8.55639C6.8722 8.55639 5.95483 7.63902 5.95483 6.51145C5.95483 5.38389 6.8722 4.46652 7.9998 4.46652C9.12739 4.46652 10.0447 5.38389 10.0447 6.51145C10.0447 7.63902 9.12739 8.55639 7.9998 8.55639Z"
+                                                fill="#2EB97E" />
+                                        </svg> <a class="primary-hover fs-14" href="#0">6391 Elgin St. Celina, USA</a>
+                                    </li>
+                                </ul>
+                                <h4><a href="event-details.html" class="primary-hover">Creating Nutritious Japanese Usi
+                                        Po Sushi
+                                        Rolls</a></h4>
+                                <div class="d-flex align-items-center gap-4 mt-10 justify-content-between">
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                    <h4 class="primary-color fs-24">$30.00</h4>
+                                </div>
+                                <a href="#0" class="event-five-btn mt-25">Get Ticket<i
+                                        class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pegi justify-content-center mt-60">
+                <a href="#0" class="border-none"><i class="fa-regular fa-arrow-left primary-color transition"></i></a>
+                <a href="#0">01</a>
+                <a href="#0" class="active">02</a>
+                <a href="#0">03</a>
+                <a href="#0" class="border-none"><i class="fa-regular fa-arrow-right primary-color transition"></i></a>
+            </div>
+        </section>
+        <!-- Event area end here -->
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer-area sub-bg">
+        <div class="footer__shape-left">
+            <img src="assets/images/shape/footer-shape-left.png" alt="shape">
+        </div>
+        <div class="footer__shape-right sway_Y__animationY">
+            <img src="assets/images/shape/footer-shape-right.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30">
+                        <img src="assets/images/logo/logo.svg" alt="logo">
+                    </a>
+                    <p>Phasellus ultricies aliquam volutpat
+                        ullamcorper laoreet neque, a lacinia
+                        curabitur lacinia mollis</p>
+                    <ul class="mt-25">
+                        <li>
+                            <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.99991 0C3.92603 0 0.611816 3.31421 0.611816 7.38809C0.611816 8.72925 1.21329 10.1717 1.2385 10.2325C1.43276 10.6936 1.81608 11.4098 2.09248 11.8296L7.1581 19.505C7.3654 19.8196 7.67222 20 7.99991 20C8.32759 20 8.63442 19.8196 8.84172 19.5054L13.9078 11.8296C14.1846 11.4098 14.5675 10.6936 14.7618 10.2325C14.787 10.1721 15.388 8.72968 15.388 7.38809C15.388 3.31421 12.0738 0 7.99991 0ZM13.9604 9.89526C13.787 10.3086 13.4302 10.9748 13.182 11.3512L8.11594 19.0269C8.01599 19.1786 7.98426 19.1786 7.88431 19.0269L2.81825 11.3512C2.5701 10.9748 2.21329 10.3081 2.03989 9.89483C2.0325 9.87701 1.481 8.54933 1.481 7.38809C1.481 3.79357 4.40538 0.869187 7.99991 0.869187C11.5944 0.869187 14.5188 3.79357 14.5188 7.38809C14.5188 8.55106 13.966 9.88223 13.9604 9.89526Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="tel:+2086660112" class="p-0">+208-666-0112</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Quick Link</h3>
+                    <ul>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i>About Learnit</a></li>
+                        <li><a href="course.html"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
+                        </li>
+                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor</a>
+                        </li>
+                        <li><a href="team-details.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor
+                                Details</a>
+                        </li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Courses</h3>
+                    <ul>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Computer
+                                Science</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>
+                                Development</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Arts &
+                                Design</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Sale
+                                Marketing</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
+                                Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms"
+                    data-wow-duration="1500ms">
+                    <h3 class="footer-title">Newsletters</h3>
+                    <p class="mb-20">Sing Up For News & Get 30% Off
+                        Your Next Course.</p>
+                    <div class="footer-newsletter">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div
+                    class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
+                        by <a href="#0" class="primary-color">Learnit</a></p>
+                    <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <li><a href="#0">Terms & Condition</a></li>
+                        <li><a href="#0">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

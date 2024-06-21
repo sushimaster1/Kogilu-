@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnit - Education & Online Courses Html Template</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+    <!-- Top header area start here -->
+    <div class="header-top-two-area d-none d-lg-block">
+        <div class="container">
+            <div class="header-top-two__wrp">
+                <ul class="info">
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_35)">
+                                <path
+                                    d="M7.50005 0C4.44464 0 1.95898 2.48566 1.95898 5.54107C1.95898 6.54694 2.41009 7.62875 2.429 7.67438C2.57469 8.02021 2.86218 8.55737 3.06948 8.87223L6.8687 14.6287C7.02417 14.8647 7.25429 15 7.50005 15C7.74582 15 7.97593 14.8647 8.13141 14.6291L11.931 8.87223C12.1386 8.55737 12.4257 8.02021 12.5714 7.67438C12.5903 7.62907 13.0411 6.54726 13.0411 5.54107C13.0411 2.48566 10.5555 0 7.50005 0ZM11.9704 7.42145C11.8403 7.73142 11.5727 8.23109 11.3866 8.51336L7.58708 14.2702C7.51211 14.384 7.48832 14.384 7.41335 14.2702L3.61381 8.51336C3.42769 8.23109 3.16009 7.73109 3.03004 7.42112C3.0245 7.40776 2.61087 6.41199 2.61087 5.54107C2.61087 2.84518 4.80416 0.65189 7.50005 0.65189C10.1959 0.65189 12.3892 2.84518 12.3892 5.54107C12.3892 6.4133 11.9746 7.41167 11.9704 7.42145Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.50016 2.60788C5.88249 2.60788 4.56665 3.92405 4.56665 5.54139C4.56665 7.15873 5.88249 8.47489 7.50016 8.47489C9.11782 8.47489 10.4337 7.15873 10.4337 5.54139C10.4337 3.92405 9.11782 2.60788 7.50016 2.60788ZM7.50016 7.823C6.24233 7.823 5.21854 6.79954 5.21854 5.54139C5.21854 4.28324 6.24233 3.25977 7.50016 3.25977C8.75798 3.25977 9.78177 4.28324 9.78177 5.54139C9.78177 6.79954 8.75798 7.823 7.50016 7.823Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_35">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">6391 Elgin St. Celina, USA</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_50)">
+                                <path
+                                    d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z"
+                                    fill="#2EB97E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_50">
+                                    <rect width="15" height="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="#0">info@example.com</a>
+                    </li>
+                </ul>
+                <ul class="socila-link">
+                    <li>Follow Us On :</li>
+                    <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area header-two-area">
+        <div class="container">
+            <div class="header__main header-two__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#0">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="index.html">Online Academy 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">Online Academy 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-3.html">Kitchen Coach</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-4.html">Yoga Instructor</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-5.html">Kindergarten</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-6.html">Onine Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-7.html">Quran Learning</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-8.html">Gym Training</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-9.html">Driving School</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-10.html">Language Course</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">About Us <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-2.html">About Us 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-3.html">About Us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Courses <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="course.html">Courses 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-2.html">Courses 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-3.html">Courses 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-4.html">Courses 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-5.html">Courses 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-6.html">Courses 6</a>
+                                    </li>
+                                    <li>
+                                        <a href="course-7.html">Courses 7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Courses Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="course-details.html">Courses Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="course-details-2.html">Courses Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team.html">Instructors 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-2.html">Instructors 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-3.html">Instructors 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Instructors Details <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="team-details.html">Instructors Details 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="team-details-2.html">Instructors Details 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Event <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-sub-menu">
+                                            <li>
+                                                <a href="event.html">Event 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="event-2.html">Event 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="event-details.html">Event Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">Faq’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html">Price Table</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="coming-soon.html">Comimg Soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="error.html">404 Error</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="blog.html">Blog Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-standard.html">Blog Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-two__info">
+                    <button class="search-trigger d-none d-lg-block mr-30">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1460_4184)">
+                                <path
+                                    d="M15.8178 14.9381L11.913 11.0334C12.8836 9.86621 13.4683 8.36744 13.4683 6.73438C13.4683 3.02103 10.4474 0 6.73421 0C3.02094 0 0 3.02103 0 6.73438C0 10.4475 3.02094 13.4683 6.73421 13.4683C8.36719 13.4683 9.86605 12.8836 11.0332 11.913L14.9381 15.8178C15.0595 15.9393 15.2188 16 15.3779 16C15.5371 16 15.6963 15.9393 15.8179 15.8178C16.0608 15.5748 16.0608 15.181 15.8178 14.9381ZM1.24414 6.73438C1.24414 3.70705 3.70696 1.24414 6.73421 1.24414C9.76137 1.24414 12.2241 3.70705 12.2241 6.73438C12.2241 9.76146 9.76137 12.2241 6.73421 12.2241C3.70696 12.2241 1.24414 9.76146 1.24414 6.73438Z"
+                                    fill="#0F0D1D" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1460_4184">
+                                    <rect width="16" height="16" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                    <div class="menu-btns d-none d-lg-flex">
+                        <a class="active" href="pricing.html">Try For Free</a>
+                    </div>
+                    <button class="menubars" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M21 6H3" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M21 18H3" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-light.svg" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
+                    class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="paragraph-light fs-16">
+                    Unleash the full potential of your website and elevate its online presence with our comprehensive
+                    online courses.
+                </p>
+            </div>
+            <div class="sidebar__search d-block d-lg-none">
+                <input type="text" placeholder="Search here..">
+                <button><i class="fa-regular fa-magnifying-glass"></i></button>
+            </div>
+            <div class="sidebar__contact-info mt-30">
+                <h5 class="text-white mb-20">Contact Info</h5>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="#0">example@example.com</a>
+                    </li>
+                    <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+912659302003">+91
+                            2659
+                            302 003</a>
+                    </li>
+                    <li><i class="fa-solid fa-paper-plane"></i> <a href="#0">info.company@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__btns my-4">
+                <a href="sign-up.html">Sign Up</a>
+                <a class="sign-in" href="sign-in.html">Sign In</a>
+            </div>
+            <div class="sidebar__socials">
+                <ul>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <i class="fa-brands text-white fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+    <!-- Fullscreen search area start here -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fa-light fa-xmark search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Fullscreen search area end here -->
+
+    <main>
+
+        <!-- Banner area start here -->
+        <section class="banner-six-area bg-image paralax__animation"
+            data-background="assets/images/bg/banner-six-bg.jpg">
+            <div class="banner-six__shape1" data-depth="0.03">
+                <img class="animation__sunMove" src="assets/images/shape/banner-six-shape1.png" alt="image">
+            </div>
+            <div class="banner-six__shape2" data-depth="0.03">
+                <img class="animation__arryLeftRight" src="assets/images/shape/banner-six-shape2.png" alt="image">
+            </div>
+            <div class="banner-six__shape3" data-depth="0.03">
+                <img class="animation__arryUpDown" src="assets/images/shape/banner-six-shape3.png" alt="image">
+            </div>
+            <div class="container">
+                <div class="banner-two__content">
+                    <h5 class="mb-10 primary-color text-capitalize wow fadeInUp" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">ONLINE LARNING COURSE</h5>
+                    <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Art Is The Future
+                        Of
+                        <span class="primary-color">Creativity <img src="assets/images/shape/banner-span-shape.png"
+                                alt="shape"></span>
+                    </h1>
+                    <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Aonsectetur
+                        adipiscing elit Aenean scelerisque augue vitae consequat Quisque eget
+                        congue!</p>
+                    <a href="course.html" class="btn-one mt-50 wow fadeInUp" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">Explore Courses<i class="fa-light fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="banner-six__image">
+                <img class="w-100 animation__arryLeftRight" src="assets/images/banner/banner-six-hero.png" alt="image">
+                <img class="shape1 animation__arryUpDown" src="assets/images/shape/banner-six-image-shape1.png"
+                    alt="image">
+                <img class="shape2" src="assets/images/shape/banner-six-image-shape2.png" alt="image">
+                <img class="shape3" src="assets/images/shape/banner-six-image-shape3.png" alt="image">
+
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Courses area start here -->
+        <section class="courses-six-area pt-120 pb-120">
+            <div class="container">
+                <div class="section-header text-center mb-60">
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Top Class Courses</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Choose <span>Our Top
+                            <img src="assets/images/shape/header-shape.png" alt="shape"></span>
+                        Courses</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="courses-six__item bor">
+                            <div class="courses-six__image image">
+                                <img src="assets/images/courses/courses-six-image1.png" alt="image">
+                                <div class="courses-price">
+                                    <h5 class="fs-18">$49</h5>
+                                </div>
+                            </div>
+                            <div class="courses-six__content">
+                                <div class="tag mb-20">Beginner</div>
+                                <h3><a href="course-details.html" class="primary-hover">The Ultimate Drawing Course
+                                        Beginners</a>
+                                </h3>
+                                <ul class="d-flex align-items-center gap-4 my-3">
+                                    <li>
+                                        <svg class="me-1" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99967 2.29208C7.74714 1.80254 7.36475 1.39195 6.89439 1.10526C6.42403 0.81858 5.88385 0.666869 5.33301 0.666748C3.67734 0.666748 2.33301 2.01108 2.33301 3.66675C2.33301 5.32241 3.67734 6.66675 5.33301 6.66675C5.88385 6.66663 6.42403 6.51492 6.89439 6.22823C7.36475 5.94155 7.74714 5.53095 7.99967 5.04142C8.25215 5.531 8.63453 5.94164 9.1049 6.22833C9.57527 6.51502 10.1155 6.6667 10.6663 6.66675C12.322 6.66675 13.6663 5.32241 13.6663 3.66675C13.6663 2.01108 12.322 0.666748 10.6663 0.666748C10.1155 0.666869 9.57532 0.81858 9.10496 1.10526C8.6346 1.39195 8.25221 1.80254 7.99967 2.29208ZM10.6663 1.33341C11.954 1.33341 12.9997 2.37908 12.9997 3.66675C12.9997 4.95441 11.954 6.00008 10.6663 6.00008C9.37867 6.00008 8.33301 4.95441 8.33301 3.66675C8.33301 2.37908 9.37867 1.33341 10.6663 1.33341ZM5.33301 1.33341C6.62067 1.33341 7.66634 2.37908 7.66634 3.66675C7.66634 4.95441 6.62067 6.00008 5.33301 6.00008C4.04534 6.00008 2.99967 4.95441 2.99967 3.66675C2.99967 2.37908 4.04534 1.33341 5.33301 1.33341ZM7.99967 7.58342C8.41301 7.42208 8.86267 7.33342 9.33301 7.33342H11.9997C14.0247 7.33342 15.6663 8.97508 15.6663 11.0001V12.3334C15.6663 12.5986 15.561 12.853 15.3734 13.0405C15.1859 13.2281 14.9316 13.3334 14.6663 13.3334H1.33301C1.06779 13.3334 0.813437 13.2281 0.625901 13.0405C0.438365 12.853 0.333008 12.5986 0.333008 12.3334V11.0001C0.333008 8.97508 1.97467 7.33342 3.99967 7.33342H6.66634C7.13667 7.33342 7.58634 7.42208 7.99967 7.58342ZM9.66634 11.0001V12.3334C9.66634 12.4218 9.63122 12.5066 9.56871 12.5691C9.5062 12.6316 9.42141 12.6667 9.33301 12.6667H1.33301C1.2446 12.6667 1.15982 12.6316 1.09731 12.5691C1.03479 12.5066 0.999674 12.4218 0.999674 12.3334V11.0001C0.999674 10.2044 1.31574 9.44137 1.87835 8.87876C2.44096 8.31615 3.20403 8.00008 3.99967 8.00008H6.66634C7.46199 8.00008 8.22505 8.31615 8.78766 8.87876C9.35027 9.44137 9.66634 10.2044 9.66634 11.0001ZM10.276 12.6667H14.6663C14.7547 12.6667 14.8395 12.6316 14.902 12.5691C14.9646 12.5066 14.9997 12.4218 14.9997 12.3334V11.0001C14.9997 10.2044 14.6836 9.44137 14.121 8.87876C13.5584 8.31615 12.7953 8.00008 11.9997 8.00008H9.33301C9.16267 8.00008 8.99534 8.01441 8.83267 8.04175C9.29799 8.38193 9.6764 8.82718 9.93711 9.34125C10.1978 9.85532 10.3335 10.4237 10.333 11.0001V12.3334C10.333 12.4504 10.313 12.5624 10.276 12.6667Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">180 Students</a>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.1515 15.7576H2.00607C1.32728 15.7576 0.793945 15.2242 0.793945 14.5455V1.45455C0.793945 0.775765 1.32728 0.242432 2.00607 0.242432H11.9939C12.6727 0.242432 13.2061 0.775765 13.2061 1.45455V12.7758C13.2061 12.9212 13.1091 13.0182 12.9636 13.0182C12.8182 13.0182 12.7212 12.9212 12.7212 12.7758V1.45455C12.7212 1.04243 12.4061 0.72728 11.9939 0.72728H2.00607C1.59395 0.72728 1.27879 1.04243 1.27879 1.45455V14.5455C1.27879 14.9576 1.59395 15.2727 2.00607 15.2727H10.1515C10.297 15.2727 10.3939 15.3697 10.3939 15.5152C10.3939 15.6606 10.297 15.7576 10.1515 15.7576Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.2001 15.7576H10.1758C10.0304 15.7576 9.93339 15.6606 9.93339 15.5152V13.6727C9.93339 13.0424 10.4425 12.5333 11.0728 12.5333H12.9395C13.0364 12.5333 13.1334 12.5818 13.1576 12.6788C13.2061 12.7758 13.1819 12.8727 13.1092 12.9455L10.3698 15.6849C10.3213 15.7333 10.2728 15.7576 10.2001 15.7576ZM11.0728 13.0182C10.7092 13.0182 10.4182 13.3091 10.4182 13.6727V14.9576L12.3576 13.0182H11.0728ZM7.0243 4.24244C7.00006 4.24244 6.97582 4.24244 6.95158 4.2182L3.55764 3.0788C3.46067 3.05456 3.38794 2.95759 3.38794 2.86062C3.38794 2.76365 3.46067 2.66668 3.55764 2.64244L6.95158 1.50305C7.00006 1.4788 7.04855 1.4788 7.09703 1.50305L10.394 2.64244C10.491 2.66668 10.5637 2.76365 10.5637 2.86062C10.5637 2.95759 10.491 3.05456 10.394 3.0788L7.09703 4.2182C7.07279 4.24244 7.04855 4.24244 7.0243 4.24244ZM4.38188 2.86062L7.0243 3.73335L9.56976 2.86062L7.0243 1.98789L4.38188 2.86062Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M7.00002 5.59996C6.22426 5.59996 5.42426 5.55148 4.60002 5.45451C4.47881 5.43027 4.38184 5.3333 4.38184 5.21208V3.22421C4.38184 3.07875 4.47881 2.98178 4.62426 2.98178C4.76971 2.98178 4.86668 3.07875 4.86668 3.22421V4.9939C6.29699 5.13936 7.70305 5.1636 9.03638 4.9939V3.22421C9.03638 3.07875 9.13335 2.98178 9.27881 2.98178C9.42426 2.98178 9.52123 3.07875 9.52123 3.22421V5.21208C9.52123 5.3333 9.42426 5.43027 9.30305 5.45451C8.57578 5.55148 7.80002 5.59996 7.00002 5.59996ZM10.2 5.09087C10.0546 5.09087 9.95759 4.9939 9.95759 4.84845V3.03027C9.95759 2.88481 10.0546 2.78784 10.2 2.78784C10.3455 2.78784 10.4424 2.88481 10.4424 3.03027V4.84845C10.4424 4.9939 10.3455 5.09087 10.2 5.09087Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.3702 5.18797H10.055C9.90955 5.18797 9.81258 5.091 9.81258 4.94555C9.81258 4.80009 9.90955 4.70312 10.055 4.70312H10.3702C10.5156 4.70312 10.6126 4.80009 10.6126 4.94555C10.6126 5.091 10.5156 5.18797 10.3702 5.18797ZM10.8308 7.53949H5.86107C5.71561 7.53949 5.61864 7.44252 5.61864 7.29706C5.61864 7.15161 5.71561 7.05464 5.86107 7.05464H10.8308C10.9762 7.05464 11.0732 7.15161 11.0732 7.29706C11.0732 7.44252 10.9762 7.53949 10.8308 7.53949ZM10.8308 9.55161H5.86107C5.71561 9.55161 5.61864 9.45464 5.61864 9.30919C5.61864 9.16373 5.71561 9.06676 5.86107 9.06676H10.8308C10.9762 9.06676 11.0732 9.16373 11.0732 9.30919C11.0732 9.45464 10.9762 9.55161 10.8308 9.55161ZM10.8308 11.5637H5.86107C5.71561 11.5637 5.61864 11.4668 5.61864 11.3213C5.61864 11.1759 5.71561 11.0789 5.86107 11.0789H10.8308C10.9762 11.0789 11.0732 11.1759 11.0732 11.3213C11.0732 11.4668 10.9762 11.5637 10.8308 11.5637ZM8.35804 13.5759H5.86107C5.71561 13.5759 5.61864 13.4789 5.61864 13.3334C5.61864 13.188 5.71561 13.091 5.86107 13.091H8.35804C8.50349 13.091 8.60046 13.188 8.60046 13.3334C8.60046 13.4789 8.50349 13.5759 8.35804 13.5759ZM4.06713 7.97585H3.17016C3.0247 7.97585 2.92773 7.87888 2.92773 7.73343V6.83646C2.92773 6.691 3.0247 6.59403 3.17016 6.59403H4.06713C4.21258 6.59403 4.30955 6.691 4.30955 6.83646V7.73343C4.30955 7.87888 4.21258 7.97585 4.06713 7.97585ZM3.41258 7.491H3.8247V7.07888H3.41258V7.491ZM4.06713 9.98797H3.17016C3.0247 9.98797 2.92773 9.891 2.92773 9.74555V8.84858C2.92773 8.70312 3.0247 8.60616 3.17016 8.60616H4.06713C4.21258 8.60616 4.30955 8.70312 4.30955 8.84858V9.74555C4.30955 9.891 4.21258 9.98797 4.06713 9.98797ZM3.41258 9.50313H3.8247V9.091H3.41258V9.50313ZM4.06713 12.0001H3.17016C3.0247 12.0001 2.92773 11.9031 2.92773 11.7577V10.8607C2.92773 10.7152 3.0247 10.6183 3.17016 10.6183H4.06713C4.21258 10.6183 4.30955 10.7152 4.30955 10.8607V11.7577C4.30955 11.9031 4.21258 12.0001 4.06713 12.0001ZM3.41258 11.5152H3.8247V11.1031H3.41258V11.5152ZM4.06713 14.0122H3.17016C3.0247 14.0122 2.92773 13.9152 2.92773 13.7698V12.8728C2.92773 12.7274 3.0247 12.6304 3.17016 12.6304H4.06713C4.21258 12.6304 4.30955 12.7274 4.30955 12.8728V13.7698C4.30955 13.9152 4.21258 14.0122 4.06713 14.0122ZM3.41258 13.5274H3.8247V13.1152H3.41258V13.5274Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">12 Lessons</a>
+                                    </li>
+                                </ul>
+                                <div class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <img src="assets/images/courses/courses-user1.jpg" alt="image">
+                                        <a href="#0" class="primary-hover">Rahat Hasan</a>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="courses-six__item bor">
+                            <div class="courses-six__image image">
+                                <img src="assets/images/courses/courses-six-image2.png" alt="image">
+                                <div class="courses-price">
+                                    <h5 class="fs-18">Free</h5>
+                                </div>
+                            </div>
+                            <div class="courses-six__content">
+                                <div class="tag mb-20">Expert</div>
+                                <h3><a href="course-details.html" class="primary-hover">The Art & Science of Figure
+                                        Drawing</a>
+                                </h3>
+                                <ul class="d-flex align-items-center gap-4 my-3">
+                                    <li>
+                                        <svg class="me-1" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99967 2.29208C7.74714 1.80254 7.36475 1.39195 6.89439 1.10526C6.42403 0.81858 5.88385 0.666869 5.33301 0.666748C3.67734 0.666748 2.33301 2.01108 2.33301 3.66675C2.33301 5.32241 3.67734 6.66675 5.33301 6.66675C5.88385 6.66663 6.42403 6.51492 6.89439 6.22823C7.36475 5.94155 7.74714 5.53095 7.99967 5.04142C8.25215 5.531 8.63453 5.94164 9.1049 6.22833C9.57527 6.51502 10.1155 6.6667 10.6663 6.66675C12.322 6.66675 13.6663 5.32241 13.6663 3.66675C13.6663 2.01108 12.322 0.666748 10.6663 0.666748C10.1155 0.666869 9.57532 0.81858 9.10496 1.10526C8.6346 1.39195 8.25221 1.80254 7.99967 2.29208ZM10.6663 1.33341C11.954 1.33341 12.9997 2.37908 12.9997 3.66675C12.9997 4.95441 11.954 6.00008 10.6663 6.00008C9.37867 6.00008 8.33301 4.95441 8.33301 3.66675C8.33301 2.37908 9.37867 1.33341 10.6663 1.33341ZM5.33301 1.33341C6.62067 1.33341 7.66634 2.37908 7.66634 3.66675C7.66634 4.95441 6.62067 6.00008 5.33301 6.00008C4.04534 6.00008 2.99967 4.95441 2.99967 3.66675C2.99967 2.37908 4.04534 1.33341 5.33301 1.33341ZM7.99967 7.58342C8.41301 7.42208 8.86267 7.33342 9.33301 7.33342H11.9997C14.0247 7.33342 15.6663 8.97508 15.6663 11.0001V12.3334C15.6663 12.5986 15.561 12.853 15.3734 13.0405C15.1859 13.2281 14.9316 13.3334 14.6663 13.3334H1.33301C1.06779 13.3334 0.813437 13.2281 0.625901 13.0405C0.438365 12.853 0.333008 12.5986 0.333008 12.3334V11.0001C0.333008 8.97508 1.97467 7.33342 3.99967 7.33342H6.66634C7.13667 7.33342 7.58634 7.42208 7.99967 7.58342ZM9.66634 11.0001V12.3334C9.66634 12.4218 9.63122 12.5066 9.56871 12.5691C9.5062 12.6316 9.42141 12.6667 9.33301 12.6667H1.33301C1.2446 12.6667 1.15982 12.6316 1.09731 12.5691C1.03479 12.5066 0.999674 12.4218 0.999674 12.3334V11.0001C0.999674 10.2044 1.31574 9.44137 1.87835 8.87876C2.44096 8.31615 3.20403 8.00008 3.99967 8.00008H6.66634C7.46199 8.00008 8.22505 8.31615 8.78766 8.87876C9.35027 9.44137 9.66634 10.2044 9.66634 11.0001ZM10.276 12.6667H14.6663C14.7547 12.6667 14.8395 12.6316 14.902 12.5691C14.9646 12.5066 14.9997 12.4218 14.9997 12.3334V11.0001C14.9997 10.2044 14.6836 9.44137 14.121 8.87876C13.5584 8.31615 12.7953 8.00008 11.9997 8.00008H9.33301C9.16267 8.00008 8.99534 8.01441 8.83267 8.04175C9.29799 8.38193 9.6764 8.82718 9.93711 9.34125C10.1978 9.85532 10.3335 10.4237 10.333 11.0001V12.3334C10.333 12.4504 10.313 12.5624 10.276 12.6667Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">160 Students</a>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.1515 15.7576H2.00607C1.32728 15.7576 0.793945 15.2242 0.793945 14.5455V1.45455C0.793945 0.775765 1.32728 0.242432 2.00607 0.242432H11.9939C12.6727 0.242432 13.2061 0.775765 13.2061 1.45455V12.7758C13.2061 12.9212 13.1091 13.0182 12.9636 13.0182C12.8182 13.0182 12.7212 12.9212 12.7212 12.7758V1.45455C12.7212 1.04243 12.4061 0.72728 11.9939 0.72728H2.00607C1.59395 0.72728 1.27879 1.04243 1.27879 1.45455V14.5455C1.27879 14.9576 1.59395 15.2727 2.00607 15.2727H10.1515C10.297 15.2727 10.3939 15.3697 10.3939 15.5152C10.3939 15.6606 10.297 15.7576 10.1515 15.7576Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.2001 15.7576H10.1758C10.0304 15.7576 9.93339 15.6606 9.93339 15.5152V13.6727C9.93339 13.0424 10.4425 12.5333 11.0728 12.5333H12.9395C13.0364 12.5333 13.1334 12.5818 13.1576 12.6788C13.2061 12.7758 13.1819 12.8727 13.1092 12.9455L10.3698 15.6849C10.3213 15.7333 10.2728 15.7576 10.2001 15.7576ZM11.0728 13.0182C10.7092 13.0182 10.4182 13.3091 10.4182 13.6727V14.9576L12.3576 13.0182H11.0728ZM7.0243 4.24244C7.00006 4.24244 6.97582 4.24244 6.95158 4.2182L3.55764 3.0788C3.46067 3.05456 3.38794 2.95759 3.38794 2.86062C3.38794 2.76365 3.46067 2.66668 3.55764 2.64244L6.95158 1.50305C7.00006 1.4788 7.04855 1.4788 7.09703 1.50305L10.394 2.64244C10.491 2.66668 10.5637 2.76365 10.5637 2.86062C10.5637 2.95759 10.491 3.05456 10.394 3.0788L7.09703 4.2182C7.07279 4.24244 7.04855 4.24244 7.0243 4.24244ZM4.38188 2.86062L7.0243 3.73335L9.56976 2.86062L7.0243 1.98789L4.38188 2.86062Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M7.00002 5.59996C6.22426 5.59996 5.42426 5.55148 4.60002 5.45451C4.47881 5.43027 4.38184 5.3333 4.38184 5.21208V3.22421C4.38184 3.07875 4.47881 2.98178 4.62426 2.98178C4.76971 2.98178 4.86668 3.07875 4.86668 3.22421V4.9939C6.29699 5.13936 7.70305 5.1636 9.03638 4.9939V3.22421C9.03638 3.07875 9.13335 2.98178 9.27881 2.98178C9.42426 2.98178 9.52123 3.07875 9.52123 3.22421V5.21208C9.52123 5.3333 9.42426 5.43027 9.30305 5.45451C8.57578 5.55148 7.80002 5.59996 7.00002 5.59996ZM10.2 5.09087C10.0546 5.09087 9.95759 4.9939 9.95759 4.84845V3.03027C9.95759 2.88481 10.0546 2.78784 10.2 2.78784C10.3455 2.78784 10.4424 2.88481 10.4424 3.03027V4.84845C10.4424 4.9939 10.3455 5.09087 10.2 5.09087Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.3702 5.18797H10.055C9.90955 5.18797 9.81258 5.091 9.81258 4.94555C9.81258 4.80009 9.90955 4.70312 10.055 4.70312H10.3702C10.5156 4.70312 10.6126 4.80009 10.6126 4.94555C10.6126 5.091 10.5156 5.18797 10.3702 5.18797ZM10.8308 7.53949H5.86107C5.71561 7.53949 5.61864 7.44252 5.61864 7.29706C5.61864 7.15161 5.71561 7.05464 5.86107 7.05464H10.8308C10.9762 7.05464 11.0732 7.15161 11.0732 7.29706C11.0732 7.44252 10.9762 7.53949 10.8308 7.53949ZM10.8308 9.55161H5.86107C5.71561 9.55161 5.61864 9.45464 5.61864 9.30919C5.61864 9.16373 5.71561 9.06676 5.86107 9.06676H10.8308C10.9762 9.06676 11.0732 9.16373 11.0732 9.30919C11.0732 9.45464 10.9762 9.55161 10.8308 9.55161ZM10.8308 11.5637H5.86107C5.71561 11.5637 5.61864 11.4668 5.61864 11.3213C5.61864 11.1759 5.71561 11.0789 5.86107 11.0789H10.8308C10.9762 11.0789 11.0732 11.1759 11.0732 11.3213C11.0732 11.4668 10.9762 11.5637 10.8308 11.5637ZM8.35804 13.5759H5.86107C5.71561 13.5759 5.61864 13.4789 5.61864 13.3334C5.61864 13.188 5.71561 13.091 5.86107 13.091H8.35804C8.50349 13.091 8.60046 13.188 8.60046 13.3334C8.60046 13.4789 8.50349 13.5759 8.35804 13.5759ZM4.06713 7.97585H3.17016C3.0247 7.97585 2.92773 7.87888 2.92773 7.73343V6.83646C2.92773 6.691 3.0247 6.59403 3.17016 6.59403H4.06713C4.21258 6.59403 4.30955 6.691 4.30955 6.83646V7.73343C4.30955 7.87888 4.21258 7.97585 4.06713 7.97585ZM3.41258 7.491H3.8247V7.07888H3.41258V7.491ZM4.06713 9.98797H3.17016C3.0247 9.98797 2.92773 9.891 2.92773 9.74555V8.84858C2.92773 8.70312 3.0247 8.60616 3.17016 8.60616H4.06713C4.21258 8.60616 4.30955 8.70312 4.30955 8.84858V9.74555C4.30955 9.891 4.21258 9.98797 4.06713 9.98797ZM3.41258 9.50313H3.8247V9.091H3.41258V9.50313ZM4.06713 12.0001H3.17016C3.0247 12.0001 2.92773 11.9031 2.92773 11.7577V10.8607C2.92773 10.7152 3.0247 10.6183 3.17016 10.6183H4.06713C4.21258 10.6183 4.30955 10.7152 4.30955 10.8607V11.7577C4.30955 11.9031 4.21258 12.0001 4.06713 12.0001ZM3.41258 11.5152H3.8247V11.1031H3.41258V11.5152ZM4.06713 14.0122H3.17016C3.0247 14.0122 2.92773 13.9152 2.92773 13.7698V12.8728C2.92773 12.7274 3.0247 12.6304 3.17016 12.6304H4.06713C4.21258 12.6304 4.30955 12.7274 4.30955 12.8728V13.7698C4.30955 13.9152 4.21258 14.0122 4.06713 14.0122ZM3.41258 13.5274H3.8247V13.1152H3.41258V13.5274Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">15 Lessons</a>
+                                    </li>
+                                </ul>
+                                <div class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <img src="assets/images/courses/courses-user2.jpg" alt="image">
+                                        <a href="#0" class="primary-hover">Shanta Roy</a>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="courses-six__item bor">
+                            <div class="courses-six__image image">
+                                <img src="assets/images/courses/courses-six-image3.png" alt="image">
+                                <div class="courses-price">
+                                    <h5 class="fs-18">$29</h5>
+                                </div>
+                            </div>
+                            <div class="courses-six__content">
+                                <div class="tag mb-20">Online Art</div>
+                                <h3><a href="course-details.html" class="primary-hover">Modern and Contemporary Art and
+                                        Design</a>
+                                </h3>
+                                <ul class="d-flex align-items-center gap-4 my-3">
+                                    <li>
+                                        <svg class="me-1" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99967 2.29208C7.74714 1.80254 7.36475 1.39195 6.89439 1.10526C6.42403 0.81858 5.88385 0.666869 5.33301 0.666748C3.67734 0.666748 2.33301 2.01108 2.33301 3.66675C2.33301 5.32241 3.67734 6.66675 5.33301 6.66675C5.88385 6.66663 6.42403 6.51492 6.89439 6.22823C7.36475 5.94155 7.74714 5.53095 7.99967 5.04142C8.25215 5.531 8.63453 5.94164 9.1049 6.22833C9.57527 6.51502 10.1155 6.6667 10.6663 6.66675C12.322 6.66675 13.6663 5.32241 13.6663 3.66675C13.6663 2.01108 12.322 0.666748 10.6663 0.666748C10.1155 0.666869 9.57532 0.81858 9.10496 1.10526C8.6346 1.39195 8.25221 1.80254 7.99967 2.29208ZM10.6663 1.33341C11.954 1.33341 12.9997 2.37908 12.9997 3.66675C12.9997 4.95441 11.954 6.00008 10.6663 6.00008C9.37867 6.00008 8.33301 4.95441 8.33301 3.66675C8.33301 2.37908 9.37867 1.33341 10.6663 1.33341ZM5.33301 1.33341C6.62067 1.33341 7.66634 2.37908 7.66634 3.66675C7.66634 4.95441 6.62067 6.00008 5.33301 6.00008C4.04534 6.00008 2.99967 4.95441 2.99967 3.66675C2.99967 2.37908 4.04534 1.33341 5.33301 1.33341ZM7.99967 7.58342C8.41301 7.42208 8.86267 7.33342 9.33301 7.33342H11.9997C14.0247 7.33342 15.6663 8.97508 15.6663 11.0001V12.3334C15.6663 12.5986 15.561 12.853 15.3734 13.0405C15.1859 13.2281 14.9316 13.3334 14.6663 13.3334H1.33301C1.06779 13.3334 0.813437 13.2281 0.625901 13.0405C0.438365 12.853 0.333008 12.5986 0.333008 12.3334V11.0001C0.333008 8.97508 1.97467 7.33342 3.99967 7.33342H6.66634C7.13667 7.33342 7.58634 7.42208 7.99967 7.58342ZM9.66634 11.0001V12.3334C9.66634 12.4218 9.63122 12.5066 9.56871 12.5691C9.5062 12.6316 9.42141 12.6667 9.33301 12.6667H1.33301C1.2446 12.6667 1.15982 12.6316 1.09731 12.5691C1.03479 12.5066 0.999674 12.4218 0.999674 12.3334V11.0001C0.999674 10.2044 1.31574 9.44137 1.87835 8.87876C2.44096 8.31615 3.20403 8.00008 3.99967 8.00008H6.66634C7.46199 8.00008 8.22505 8.31615 8.78766 8.87876C9.35027 9.44137 9.66634 10.2044 9.66634 11.0001ZM10.276 12.6667H14.6663C14.7547 12.6667 14.8395 12.6316 14.902 12.5691C14.9646 12.5066 14.9997 12.4218 14.9997 12.3334V11.0001C14.9997 10.2044 14.6836 9.44137 14.121 8.87876C13.5584 8.31615 12.7953 8.00008 11.9997 8.00008H9.33301C9.16267 8.00008 8.99534 8.01441 8.83267 8.04175C9.29799 8.38193 9.6764 8.82718 9.93711 9.34125C10.1978 9.85532 10.3335 10.4237 10.333 11.0001V12.3334C10.333 12.4504 10.313 12.5624 10.276 12.6667Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">180 Students</a>
+                                    </li>
+                                    <li>
+                                        <svg class="me-1" width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.1515 15.7576H2.00607C1.32728 15.7576 0.793945 15.2242 0.793945 14.5455V1.45455C0.793945 0.775765 1.32728 0.242432 2.00607 0.242432H11.9939C12.6727 0.242432 13.2061 0.775765 13.2061 1.45455V12.7758C13.2061 12.9212 13.1091 13.0182 12.9636 13.0182C12.8182 13.0182 12.7212 12.9212 12.7212 12.7758V1.45455C12.7212 1.04243 12.4061 0.72728 11.9939 0.72728H2.00607C1.59395 0.72728 1.27879 1.04243 1.27879 1.45455V14.5455C1.27879 14.9576 1.59395 15.2727 2.00607 15.2727H10.1515C10.297 15.2727 10.3939 15.3697 10.3939 15.5152C10.3939 15.6606 10.297 15.7576 10.1515 15.7576Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.2001 15.7576H10.1758C10.0304 15.7576 9.93339 15.6606 9.93339 15.5152V13.6727C9.93339 13.0424 10.4425 12.5333 11.0728 12.5333H12.9395C13.0364 12.5333 13.1334 12.5818 13.1576 12.6788C13.2061 12.7758 13.1819 12.8727 13.1092 12.9455L10.3698 15.6849C10.3213 15.7333 10.2728 15.7576 10.2001 15.7576ZM11.0728 13.0182C10.7092 13.0182 10.4182 13.3091 10.4182 13.6727V14.9576L12.3576 13.0182H11.0728ZM7.0243 4.24244C7.00006 4.24244 6.97582 4.24244 6.95158 4.2182L3.55764 3.0788C3.46067 3.05456 3.38794 2.95759 3.38794 2.86062C3.38794 2.76365 3.46067 2.66668 3.55764 2.64244L6.95158 1.50305C7.00006 1.4788 7.04855 1.4788 7.09703 1.50305L10.394 2.64244C10.491 2.66668 10.5637 2.76365 10.5637 2.86062C10.5637 2.95759 10.491 3.05456 10.394 3.0788L7.09703 4.2182C7.07279 4.24244 7.04855 4.24244 7.0243 4.24244ZM4.38188 2.86062L7.0243 3.73335L9.56976 2.86062L7.0243 1.98789L4.38188 2.86062Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M7.00002 5.59996C6.22426 5.59996 5.42426 5.55148 4.60002 5.45451C4.47881 5.43027 4.38184 5.3333 4.38184 5.21208V3.22421C4.38184 3.07875 4.47881 2.98178 4.62426 2.98178C4.76971 2.98178 4.86668 3.07875 4.86668 3.22421V4.9939C6.29699 5.13936 7.70305 5.1636 9.03638 4.9939V3.22421C9.03638 3.07875 9.13335 2.98178 9.27881 2.98178C9.42426 2.98178 9.52123 3.07875 9.52123 3.22421V5.21208C9.52123 5.3333 9.42426 5.43027 9.30305 5.45451C8.57578 5.55148 7.80002 5.59996 7.00002 5.59996ZM10.2 5.09087C10.0546 5.09087 9.95759 4.9939 9.95759 4.84845V3.03027C9.95759 2.88481 10.0546 2.78784 10.2 2.78784C10.3455 2.78784 10.4424 2.88481 10.4424 3.03027V4.84845C10.4424 4.9939 10.3455 5.09087 10.2 5.09087Z"
+                                                fill="#181818" />
+                                            <path
+                                                d="M10.3702 5.18797H10.055C9.90955 5.18797 9.81258 5.091 9.81258 4.94555C9.81258 4.80009 9.90955 4.70312 10.055 4.70312H10.3702C10.5156 4.70312 10.6126 4.80009 10.6126 4.94555C10.6126 5.091 10.5156 5.18797 10.3702 5.18797ZM10.8308 7.53949H5.86107C5.71561 7.53949 5.61864 7.44252 5.61864 7.29706C5.61864 7.15161 5.71561 7.05464 5.86107 7.05464H10.8308C10.9762 7.05464 11.0732 7.15161 11.0732 7.29706C11.0732 7.44252 10.9762 7.53949 10.8308 7.53949ZM10.8308 9.55161H5.86107C5.71561 9.55161 5.61864 9.45464 5.61864 9.30919C5.61864 9.16373 5.71561 9.06676 5.86107 9.06676H10.8308C10.9762 9.06676 11.0732 9.16373 11.0732 9.30919C11.0732 9.45464 10.9762 9.55161 10.8308 9.55161ZM10.8308 11.5637H5.86107C5.71561 11.5637 5.61864 11.4668 5.61864 11.3213C5.61864 11.1759 5.71561 11.0789 5.86107 11.0789H10.8308C10.9762 11.0789 11.0732 11.1759 11.0732 11.3213C11.0732 11.4668 10.9762 11.5637 10.8308 11.5637ZM8.35804 13.5759H5.86107C5.71561 13.5759 5.61864 13.4789 5.61864 13.3334C5.61864 13.188 5.71561 13.091 5.86107 13.091H8.35804C8.50349 13.091 8.60046 13.188 8.60046 13.3334C8.60046 13.4789 8.50349 13.5759 8.35804 13.5759ZM4.06713 7.97585H3.17016C3.0247 7.97585 2.92773 7.87888 2.92773 7.73343V6.83646C2.92773 6.691 3.0247 6.59403 3.17016 6.59403H4.06713C4.21258 6.59403 4.30955 6.691 4.30955 6.83646V7.73343C4.30955 7.87888 4.21258 7.97585 4.06713 7.97585ZM3.41258 7.491H3.8247V7.07888H3.41258V7.491ZM4.06713 9.98797H3.17016C3.0247 9.98797 2.92773 9.891 2.92773 9.74555V8.84858C2.92773 8.70312 3.0247 8.60616 3.17016 8.60616H4.06713C4.21258 8.60616 4.30955 8.70312 4.30955 8.84858V9.74555C4.30955 9.891 4.21258 9.98797 4.06713 9.98797ZM3.41258 9.50313H3.8247V9.091H3.41258V9.50313ZM4.06713 12.0001H3.17016C3.0247 12.0001 2.92773 11.9031 2.92773 11.7577V10.8607C2.92773 10.7152 3.0247 10.6183 3.17016 10.6183H4.06713C4.21258 10.6183 4.30955 10.7152 4.30955 10.8607V11.7577C4.30955 11.9031 4.21258 12.0001 4.06713 12.0001ZM3.41258 11.5152H3.8247V11.1031H3.41258V11.5152ZM4.06713 14.0122H3.17016C3.0247 14.0122 2.92773 13.9152 2.92773 13.7698V12.8728C2.92773 12.7274 3.0247 12.6304 3.17016 12.6304H4.06713C4.21258 12.6304 4.30955 12.7274 4.30955 12.8728V13.7698C4.30955 13.9152 4.21258 14.0122 4.06713 14.0122ZM3.41258 13.5274H3.8247V13.1152H3.41258V13.5274Z"
+                                                fill="#181818" />
+                                        </svg>
+                                        <a class="primary-hover fs-14" href="#0">12 Lessons</a>
+                                    </li>
+                                </ul>
+                                <div class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <img src="assets/images/courses/courses-user3.jpg" alt="image">
+                                        <a href="#0" class="primary-hover">Ayon Sheek</a>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Courses area end here -->
+
+        <!-- About area start here -->
+        <section class="about-six-area sub-bg-two pt-120 pb-120">
+            <div class="about-six__shape1">
+                <img class="pxl__zigzag" src="assets/images/shape/about-six-shape1.png" alt="shape">
+            </div>
+            <div class="about-six__shape2">
+                <img class="animation__sunMove" src="assets/images/shape/about-six-shape2.png" alt="shape">
+            </div>
+            <div class="about-six__shape3">
+                <img class="slide-up-down" src="assets/images/shape/about-six-shape3.png" alt="shape">
+            </div>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="image">
+                            <img src="assets/images/about/about-six-image.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="about__right-wrp">
+                            <div class="section-header">
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT US</h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Become an
+                                    <span>Instructor <img src="assets/images/shape/header-shape.png" alt="shape"></span>
+                                    And <br> Join with us
+                                </h2>
+                                <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Aonsectetur
+                                    adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget
+                                    congue
+                                    velit in cursus leo sodales the
+                                    turpis euismod quis sapien euismod quis sapien the.</p>
+                            </div>
+                            <div class="about__right-part mt-30 wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <div class="about__info">
+                                    <div class="icon bg__1">
+                                        <img src="assets/images/icon/about-six-icon1.png" alt="icon">
+                                    </div>
+                                    <div>
+                                        <h4>Online Courses</h4>
+                                        <p class="mt-10">Elit Aenean scelerisque vitae consequat the.</p>
+                                    </div>
+                                </div>
+                                <div class="about__info">
+                                    <div class="icon bg__2">
+                                        <img src="assets/images/icon/about-six-icon2.png" alt="icon">
+                                    </div>
+                                    <div>
+                                        <h4>Offline Courses</h4>
+                                        <p class="mt-10">Elit Aenean scelerisque vitae consequat the.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="about.html" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About area end here -->
+
+        <!-- Fanfact area start here -->
+        <section class="fanfact-six-area pb-120">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="fanfact__item bg-white">
+                            <div class="fanfact__icon bg1">
+                                <img src="assets/images/icon/fanfact-icon1.png" alt="icon">
+                            </div>
+                            <h2><span class="count">30</span>k+</h2>
+                            <span>Satisfied Student</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="fanfact__item bg-white">
+                            <div class="fanfact__icon bg2">
+                                <img src="assets/images/icon/fanfact-icon2.png" alt="icon">
+                            </div>
+                            <h2><span class="count">6500</span>+</h2>
+                            <span>Class Completed</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="fanfact__item bg-white">
+                            <div class="fanfact__icon bg3">
+                                <img src="assets/images/icon/fanfact-icon3.png" alt="icon">
+                            </div>
+                            <h2><span class="count">400</span>+</h2>
+                            <span>Experts Instructors</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="fanfact__item bg-white">
+                            <div class="fanfact__icon bg4">
+                                <img src="assets/images/icon/fanfact-icon4.png" alt="icon">
+                            </div>
+                            <h2><span class="count">6561</span>+</h2>
+                            <span>Active Students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fanfact area end here -->
+
+        <!-- Team area start here -->
+        <section class="team-two-area pb-120">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between gap-4 flex-wrap mb-60">
+                    <div class="section-header">
+                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">OUR INSTRUCTORS</h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our <span>Expert <img
+                                    src="assets/images/shape/header-shape.png" alt="shape"> Instructors
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 wow fadeInUp" data-wow-delay="400ms"
+                        data-wow-duration="1500ms">
+                        <button class="arry-prev team-two__arry-prev"><i
+                                class="fa-light fa-arrow-left-long"></i></button>
+                        <button class="arry-next team-two__arry-next active"><i
+                                class="fa-light fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+                <div class="swiper team-two__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-six-image1.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details.html" class="primary-hover">Suborna Islam</a>
+                                </h4>
+                                <span>Marketing Expert</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-six-image2.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details.html" class="primary-hover">Abu Rayhan</a></h4>
+                                <span>UI/UX Designer</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-six-image3.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details.html" class="primary-hover">Shanta Rohman</a>
+                                </h4>
+                                <span>WordPress Expert</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-two__item">
+                                <div class="team-two__image image">
+                                    <img src="assets/images/team/team-six-image4.jpg" alt="image">
+                                    <div class="team-two__share">
+                                        <a class="share-icon" href="#0"><i class="fa-light fa-share-nodes"></i></a>
+                                        <ul>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="mt-4"><a href="team-details.html" class="primary-hover">Kawser Ahmed</a></h4>
+                                <span>UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team area end here -->
+
+        <!-- Faq area start here -->
+        <section class="faq-six-area sub-bg-two pt-120 pb-120">
+            <div class="faq-six__shape1">
+                <img class="animation__goAll3" src="assets/images/shape/faq-six-shape1.png" alt="shape">
+            </div>
+            <div class="faq-six__shape2">
+                <img class="animation__rotateY" src="assets/images/shape/faq-six-shape2.png" alt="shape">
+            </div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="section-header mb-40">
+                            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">FAQ’S</h5>
+                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Are Always
+                                Ensure Best Course For Your <span>Learning <img
+                                        src="assets/images/shape/header-shape.png" alt="shape"></span></h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item shadow border-none wow fadeInDown" data-wow-delay="00ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How long should a business plan be?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item shadow border-none wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is included in your services?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item shadow border-none wow fadeInDown" data-wow-delay="400ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingthree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsethree" aria-expanded="false"
+                                        aria-controls="collapsethree">
+                                        What type of company is measured?
+                                    </button>
+                                </h2>
+                                <div id="collapsethree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 wow fadeInLeft" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <div class="faq-six__image image">
+                            <img src="assets/images/faq/faq-six-image.png" alt="image">
+                            <img class="shape animation__floatBob" src="assets/images/shape/faq-six-image-shape.png"
+                                alt="shape">
+                            <img class="dots animation__floatBob" src="assets/images/shape/faq-six-image-shape-dots.png"
+                                alt="shape">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq area end here -->
+
+        <!-- Trial area start here -->
+        <section class="trial-six-area">
+            <div class="container">
+                <div class="trial-six__wrp primary-bg bg-image" data-background="assets/images/bg/trial-six-bg.png">
+                    <div class="section-header">
+                        <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">TET US HELP
+                        </h5>
+                        <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            Inexpensive
+                            E-Learning</h2>
+                    </div>
+                    <a href="pricing.html" class="btn-one-light wow fadeInUp" data-wow-delay="400ms"
+                        data-wow-duration="1500ms">Start Free
+                        Trial<i class="fa-light fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Trial area end here -->
+
+        <!-- Testimonial area start here -->
+        <section class="testimonial-six-area pt-120 pb-120">
+            <div class="testimonial-six__shape">
+                <img class="animation__topBottom" src="assets/images/shape/testimonial-six-shape.png" alt="shape">
+            </div>
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="swiper testimonial__slider-image">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-six-image.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-six-image.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-six-image.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__right-item pl-40">
+                            <div class="section-header mb-40">
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Testimonials
+                                </h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What Our
+                                    <span>Students <img src="assets/images/shape/header-shape.png" alt="shape"></span>
+                                    Have <br> To Say
+                                </h2>
+                            </div>
+                            <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Nullam dignissim, ante scelerisque is euismod
+                                                fermentum
+                                                odio sem
+                                                semper is erat, a
+                                                feugiat leo urna eget eros. Duis
+                                                Aenean a imperdiet risus. Aliquam pellentesque nisi dui eget dapibus
+                                                enim ornare eu.
+                                                Morbi.</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Sumaya Islam</h4>
+                                                    <span>Web Designer</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Nullam dignissim, ante scelerisque is euismod
+                                                fermentum
+                                                odio sem
+                                                semper is erat, a
+                                                feugiat leo urna eget eros. Duis
+                                                Aenean a imperdiet risus. Aliquam pellentesque nisi dui eget dapibus
+                                                enim ornare eu.
+                                                Morbi.</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Kawser Ahmed</h4>
+                                                    <span>Web Designer</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Nullam dignissim, ante scelerisque is euismod
+                                                fermentum
+                                                odio sem
+                                                semper is erat, a
+                                                feugiat leo urna eget eros. Duis
+                                                Aenean a imperdiet risus. Aliquam pellentesque nisi dui eget dapibus
+                                                enim ornare eu.
+                                                Morbi.</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Mazedul Islam</h4>
+                                                    <span>Marketing Expert</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial area end here -->
+
+        <!-- Banner video area start here -->
+        <div class="banner-video-four-area bg-image" data-background="assets/images/video/video-six-image.jpg">
+            <div class="banner-video__video-btn">
+                <div class="video-btn video-pulse">
+                    <a class="video-popup" href="https://www.youtube.com/watch?v=fR-37iygzsY"><i
+                            class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner video area start here -->
+
+        <!-- Blog area start here -->
+        <section class="blog-two-area pt-120 pb-120">
+            <div class="container">
+                <div class="section-header mb-60 text-center">
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">News & Blogs</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Explore <span>Blogs <img
+                                src="assets/images/shape/header-shape.png" alt="shape"></span> and News
+                    </h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="blog-two__item">
+                            <a href="blog-details.html" class="blog__image d-block image radius0">
+                                <img src="assets/images/blog/blog-six-image1.jpg" alt="image">
+                            </a>
+                            <div class="blog-two__content p-4">
+                                <a href="#0" class="tag">Art & Design</a>
+                                <h3><a href="blog-details.html" class="primary-hover">Fixing Tailbone Back Problems soon
+                                        as
+                                        Possible</a></h3>
+                                <ul class="blog-info mt-20">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.5436 5.19275C14.5436 7.69093 12.499 9.7355 10.0008 9.7355C7.50268 9.7355 5.45811 7.69093 5.45811 5.19275C5.45811 2.69457 7.50264 0.65 10.0008 0.65C12.499 0.65 14.5436 2.69458 14.5436 5.19275Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                            <path
+                                                d="M18.2644 14.6706C18.1052 14.9458 17.9241 15.2073 17.7169 15.4766L17.7168 15.4765L17.7089 15.4873C17.4204 15.8788 17.0845 16.2373 16.7295 16.5924C16.4326 16.8892 16.0933 17.186 15.7568 17.4385C14.0794 18.6911 12.0622 19.3499 9.97818 19.3499C7.8984 19.3499 5.8851 18.6938 4.2098 17.4461C3.84591 17.1504 3.51371 16.8792 3.2269 16.5924L3.21993 16.5854L3.21276 16.5787C2.85667 16.2436 2.54242 15.8877 2.24749 15.4874L2.24751 15.4873L2.24417 15.4829C2.06196 15.24 1.87324 14.9756 1.71923 14.7169C1.83622 14.4559 1.98458 14.1847 2.14525 13.9526L2.14536 13.9527L2.15288 13.9413C3.06988 12.5556 4.53709 11.6388 6.16646 11.4148L6.18604 11.4121L6.20542 11.4082C6.2309 11.4031 6.29498 11.4117 6.34551 11.4496L6.3455 11.4496L6.34951 11.4525C7.41654 12.2401 8.68633 12.6453 10.0008 12.6453C11.3153 12.6453 12.5851 12.2401 13.6522 11.4525L13.6522 11.4525L13.6562 11.4496C13.6716 11.438 13.7404 11.408 13.8492 11.4167C15.4689 11.6435 16.9121 12.5568 17.8525 13.9468L17.8524 13.9469L17.8564 13.9526C18.0166 14.1839 18.1557 14.4231 18.2644 14.6706Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                        </svg>
+                                        <a href="#0">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66406 3.7915C5.3224 3.7915 5.03906 3.50817 5.03906 3.1665V0.666504C5.03906 0.324837 5.3224 0.0415039 5.66406 0.0415039C6.00573 0.0415039 6.28906 0.324837 6.28906 0.666504V3.1665C6.28906 3.50817 6.00573 3.7915 5.66406 3.7915ZM12.3307 3.7915C11.9891 3.7915 11.7057 3.50817 11.7057 3.1665V0.666504C11.7057 0.324837 11.9891 0.0415039 12.3307 0.0415039C12.6724 0.0415039 12.9557 0.324837 12.9557 0.666504V3.1665C12.9557 3.50817 12.6724 3.7915 12.3307 3.7915ZM6.08073 11.0832C5.9724 11.0832 5.86406 11.0582 5.76406 11.0165C5.65573 10.9748 5.5724 10.9165 5.48906 10.8415C5.33906 10.6832 5.2474 10.4748 5.2474 10.2498C5.2474 10.1415 5.2724 10.0332 5.31406 9.93317C5.35573 9.83317 5.41406 9.7415 5.48906 9.65817C5.5724 9.58317 5.65573 9.52484 5.76406 9.48317C6.06406 9.35817 6.43906 9.42484 6.6724 9.65817C6.8224 9.8165 6.91406 10.0332 6.91406 10.2498C6.91406 10.2998 6.90573 10.3582 6.8974 10.4165C6.88906 10.4665 6.8724 10.5165 6.8474 10.5665C6.83073 10.6165 6.80573 10.6665 6.7724 10.7165C6.7474 10.7582 6.70573 10.7998 6.6724 10.8415C6.51406 10.9915 6.2974 11.0832 6.08073 11.0832ZM8.9974 11.0832C8.88906 11.0832 8.78073 11.0582 8.68073 11.0165C8.5724 10.9748 8.48906 10.9165 8.40573 10.8415C8.25573 10.6832 8.16406 10.4748 8.16406 10.2498C8.16406 10.1415 8.18906 10.0332 8.23073 9.93317C8.2724 9.83317 8.33073 9.7415 8.40573 9.65817C8.48906 9.58317 8.5724 9.52484 8.68073 9.48317C8.98073 9.34984 9.35573 9.42484 9.58906 9.65817C9.73906 9.8165 9.83073 10.0332 9.83073 10.2498C9.83073 10.2998 9.8224 10.3582 9.81406 10.4165C9.80573 10.4665 9.78906 10.5165 9.76406 10.5665C9.7474 10.6165 9.7224 10.6665 9.68906 10.7165C9.66406 10.7582 9.6224 10.7998 9.58906 10.8415C9.43073 10.9915 9.21406 11.0832 8.9974 11.0832ZM11.9141 11.0832C11.8057 11.0832 11.6974 11.0582 11.5974 11.0165C11.4891 10.9748 11.4057 10.9165 11.3224 10.8415L11.2224 10.7165C11.1908 10.6701 11.1656 10.6196 11.1474 10.5665C11.1233 10.5193 11.1065 10.4687 11.0974 10.4165C11.0891 10.3582 11.0807 10.2998 11.0807 10.2498C11.0807 10.0332 11.1724 9.8165 11.3224 9.65817C11.4057 9.58317 11.4891 9.52484 11.5974 9.48317C11.9057 9.34984 12.2724 9.42484 12.5057 9.65817C12.6557 9.8165 12.7474 10.0332 12.7474 10.2498C12.7474 10.2998 12.7391 10.3582 12.7307 10.4165C12.7224 10.4665 12.7057 10.5165 12.6807 10.5665C12.6641 10.6165 12.6391 10.6665 12.6057 10.7165C12.5807 10.7582 12.5391 10.7998 12.5057 10.8415C12.3474 10.9915 12.1307 11.0832 11.9141 11.0832ZM6.08073 13.9998C5.9724 13.9998 5.86406 13.9748 5.76406 13.9332C5.66406 13.8915 5.5724 13.8332 5.48906 13.7582C5.33906 13.5998 5.2474 13.3832 5.2474 13.1665C5.2474 13.0582 5.2724 12.9498 5.31406 12.8498C5.35573 12.7415 5.41406 12.6498 5.48906 12.5748C5.7974 12.2665 6.36406 12.2665 6.6724 12.5748C6.8224 12.7332 6.91406 12.9498 6.91406 13.1665C6.91406 13.3832 6.8224 13.5998 6.6724 13.7582C6.51406 13.9082 6.2974 13.9998 6.08073 13.9998ZM8.9974 13.9998C8.78073 13.9998 8.56406 13.9082 8.40573 13.7582C8.25573 13.5998 8.16406 13.3832 8.16406 13.1665C8.16406 13.0582 8.18906 12.9498 8.23073 12.8498C8.2724 12.7415 8.33073 12.6498 8.40573 12.5748C8.71406 12.2665 9.28073 12.2665 9.58906 12.5748C9.66406 12.6498 9.7224 12.7415 9.76406 12.8498C9.80573 12.9498 9.83073 13.0582 9.83073 13.1665C9.83073 13.3832 9.73906 13.5998 9.58906 13.7582C9.43073 13.9082 9.21406 13.9998 8.9974 13.9998ZM11.9141 13.9998C11.6974 13.9998 11.4807 13.9082 11.3224 13.7582C11.2453 13.6799 11.1856 13.5862 11.1474 13.4832C11.1057 13.3832 11.0807 13.2748 11.0807 13.1665C11.0807 13.0582 11.1057 12.9498 11.1474 12.8498C11.1891 12.7415 11.2474 12.6498 11.3224 12.5748C11.5141 12.3832 11.8057 12.2915 12.0724 12.3498C12.1307 12.3582 12.1807 12.3748 12.2307 12.3998C12.2807 12.4165 12.3307 12.4415 12.3807 12.4748C12.4224 12.4998 12.4641 12.5415 12.5057 12.5748C12.6557 12.7332 12.7474 12.9498 12.7474 13.1665C12.7474 13.3832 12.6557 13.5998 12.5057 13.7582C12.3474 13.9082 12.1307 13.9998 11.9141 13.9998ZM16.0807 7.19984H1.91406C1.5724 7.19984 1.28906 6.9165 1.28906 6.57484C1.28906 6.23317 1.5724 5.94984 1.91406 5.94984H16.0807C16.4224 5.94984 16.7057 6.23317 16.7057 6.57484C16.7057 6.9165 16.4224 7.19984 16.0807 7.19984Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M12.3333 17.9582H5.66667C2.625 17.9582 0.875 16.2082 0.875 13.1665V6.08317C0.875 3.0415 2.625 1.2915 5.66667 1.2915H12.3333C15.375 1.2915 17.125 3.0415 17.125 6.08317V13.1665C17.125 16.2082 15.375 17.9582 12.3333 17.9582ZM5.66667 2.5415C3.28333 2.5415 2.125 3.69984 2.125 6.08317V13.1665C2.125 15.5498 3.28333 16.7082 5.66667 16.7082H12.3333C14.7167 16.7082 15.875 15.5498 15.875 13.1665V6.08317C15.875 3.69984 14.7167 2.5415 12.3333 2.5415H5.66667Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <a href="#0">Jan 16, 2024</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="blog-two__item">
+                            <a href="blog-details.html" class="blog__image d-block image radius0">
+                                <img src="assets/images/blog/blog-six-image2.jpg" alt="image">
+                            </a>
+                            <div class="blog-two__content p-4">
+                                <a href="#0" class="tag">Business</a>
+                                <h3><a href="blog-details.html" class="primary-hover">How to Remedy Tailbone Back the
+                                        Problems</a></h3>
+                                <ul class="blog-info mt-20">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.5436 5.19275C14.5436 7.69093 12.499 9.7355 10.0008 9.7355C7.50268 9.7355 5.45811 7.69093 5.45811 5.19275C5.45811 2.69457 7.50264 0.65 10.0008 0.65C12.499 0.65 14.5436 2.69458 14.5436 5.19275Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                            <path
+                                                d="M18.2644 14.6706C18.1052 14.9458 17.9241 15.2073 17.7169 15.4766L17.7168 15.4765L17.7089 15.4873C17.4204 15.8788 17.0845 16.2373 16.7295 16.5924C16.4326 16.8892 16.0933 17.186 15.7568 17.4385C14.0794 18.6911 12.0622 19.3499 9.97818 19.3499C7.8984 19.3499 5.8851 18.6938 4.2098 17.4461C3.84591 17.1504 3.51371 16.8792 3.2269 16.5924L3.21993 16.5854L3.21276 16.5787C2.85667 16.2436 2.54242 15.8877 2.24749 15.4874L2.24751 15.4873L2.24417 15.4829C2.06196 15.24 1.87324 14.9756 1.71923 14.7169C1.83622 14.4559 1.98458 14.1847 2.14525 13.9526L2.14536 13.9527L2.15288 13.9413C3.06988 12.5556 4.53709 11.6388 6.16646 11.4148L6.18604 11.4121L6.20542 11.4082C6.2309 11.4031 6.29498 11.4117 6.34551 11.4496L6.3455 11.4496L6.34951 11.4525C7.41654 12.2401 8.68633 12.6453 10.0008 12.6453C11.3153 12.6453 12.5851 12.2401 13.6522 11.4525L13.6522 11.4525L13.6562 11.4496C13.6716 11.438 13.7404 11.408 13.8492 11.4167C15.4689 11.6435 16.9121 12.5568 17.8525 13.9468L17.8524 13.9469L17.8564 13.9526C18.0166 14.1839 18.1557 14.4231 18.2644 14.6706Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                        </svg>
+                                        <a href="#0">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66406 3.7915C5.3224 3.7915 5.03906 3.50817 5.03906 3.1665V0.666504C5.03906 0.324837 5.3224 0.0415039 5.66406 0.0415039C6.00573 0.0415039 6.28906 0.324837 6.28906 0.666504V3.1665C6.28906 3.50817 6.00573 3.7915 5.66406 3.7915ZM12.3307 3.7915C11.9891 3.7915 11.7057 3.50817 11.7057 3.1665V0.666504C11.7057 0.324837 11.9891 0.0415039 12.3307 0.0415039C12.6724 0.0415039 12.9557 0.324837 12.9557 0.666504V3.1665C12.9557 3.50817 12.6724 3.7915 12.3307 3.7915ZM6.08073 11.0832C5.9724 11.0832 5.86406 11.0582 5.76406 11.0165C5.65573 10.9748 5.5724 10.9165 5.48906 10.8415C5.33906 10.6832 5.2474 10.4748 5.2474 10.2498C5.2474 10.1415 5.2724 10.0332 5.31406 9.93317C5.35573 9.83317 5.41406 9.7415 5.48906 9.65817C5.5724 9.58317 5.65573 9.52484 5.76406 9.48317C6.06406 9.35817 6.43906 9.42484 6.6724 9.65817C6.8224 9.8165 6.91406 10.0332 6.91406 10.2498C6.91406 10.2998 6.90573 10.3582 6.8974 10.4165C6.88906 10.4665 6.8724 10.5165 6.8474 10.5665C6.83073 10.6165 6.80573 10.6665 6.7724 10.7165C6.7474 10.7582 6.70573 10.7998 6.6724 10.8415C6.51406 10.9915 6.2974 11.0832 6.08073 11.0832ZM8.9974 11.0832C8.88906 11.0832 8.78073 11.0582 8.68073 11.0165C8.5724 10.9748 8.48906 10.9165 8.40573 10.8415C8.25573 10.6832 8.16406 10.4748 8.16406 10.2498C8.16406 10.1415 8.18906 10.0332 8.23073 9.93317C8.2724 9.83317 8.33073 9.7415 8.40573 9.65817C8.48906 9.58317 8.5724 9.52484 8.68073 9.48317C8.98073 9.34984 9.35573 9.42484 9.58906 9.65817C9.73906 9.8165 9.83073 10.0332 9.83073 10.2498C9.83073 10.2998 9.8224 10.3582 9.81406 10.4165C9.80573 10.4665 9.78906 10.5165 9.76406 10.5665C9.7474 10.6165 9.7224 10.6665 9.68906 10.7165C9.66406 10.7582 9.6224 10.7998 9.58906 10.8415C9.43073 10.9915 9.21406 11.0832 8.9974 11.0832ZM11.9141 11.0832C11.8057 11.0832 11.6974 11.0582 11.5974 11.0165C11.4891 10.9748 11.4057 10.9165 11.3224 10.8415L11.2224 10.7165C11.1908 10.6701 11.1656 10.6196 11.1474 10.5665C11.1233 10.5193 11.1065 10.4687 11.0974 10.4165C11.0891 10.3582 11.0807 10.2998 11.0807 10.2498C11.0807 10.0332 11.1724 9.8165 11.3224 9.65817C11.4057 9.58317 11.4891 9.52484 11.5974 9.48317C11.9057 9.34984 12.2724 9.42484 12.5057 9.65817C12.6557 9.8165 12.7474 10.0332 12.7474 10.2498C12.7474 10.2998 12.7391 10.3582 12.7307 10.4165C12.7224 10.4665 12.7057 10.5165 12.6807 10.5665C12.6641 10.6165 12.6391 10.6665 12.6057 10.7165C12.5807 10.7582 12.5391 10.7998 12.5057 10.8415C12.3474 10.9915 12.1307 11.0832 11.9141 11.0832ZM6.08073 13.9998C5.9724 13.9998 5.86406 13.9748 5.76406 13.9332C5.66406 13.8915 5.5724 13.8332 5.48906 13.7582C5.33906 13.5998 5.2474 13.3832 5.2474 13.1665C5.2474 13.0582 5.2724 12.9498 5.31406 12.8498C5.35573 12.7415 5.41406 12.6498 5.48906 12.5748C5.7974 12.2665 6.36406 12.2665 6.6724 12.5748C6.8224 12.7332 6.91406 12.9498 6.91406 13.1665C6.91406 13.3832 6.8224 13.5998 6.6724 13.7582C6.51406 13.9082 6.2974 13.9998 6.08073 13.9998ZM8.9974 13.9998C8.78073 13.9998 8.56406 13.9082 8.40573 13.7582C8.25573 13.5998 8.16406 13.3832 8.16406 13.1665C8.16406 13.0582 8.18906 12.9498 8.23073 12.8498C8.2724 12.7415 8.33073 12.6498 8.40573 12.5748C8.71406 12.2665 9.28073 12.2665 9.58906 12.5748C9.66406 12.6498 9.7224 12.7415 9.76406 12.8498C9.80573 12.9498 9.83073 13.0582 9.83073 13.1665C9.83073 13.3832 9.73906 13.5998 9.58906 13.7582C9.43073 13.9082 9.21406 13.9998 8.9974 13.9998ZM11.9141 13.9998C11.6974 13.9998 11.4807 13.9082 11.3224 13.7582C11.2453 13.6799 11.1856 13.5862 11.1474 13.4832C11.1057 13.3832 11.0807 13.2748 11.0807 13.1665C11.0807 13.0582 11.1057 12.9498 11.1474 12.8498C11.1891 12.7415 11.2474 12.6498 11.3224 12.5748C11.5141 12.3832 11.8057 12.2915 12.0724 12.3498C12.1307 12.3582 12.1807 12.3748 12.2307 12.3998C12.2807 12.4165 12.3307 12.4415 12.3807 12.4748C12.4224 12.4998 12.4641 12.5415 12.5057 12.5748C12.6557 12.7332 12.7474 12.9498 12.7474 13.1665C12.7474 13.3832 12.6557 13.5998 12.5057 13.7582C12.3474 13.9082 12.1307 13.9998 11.9141 13.9998ZM16.0807 7.19984H1.91406C1.5724 7.19984 1.28906 6.9165 1.28906 6.57484C1.28906 6.23317 1.5724 5.94984 1.91406 5.94984H16.0807C16.4224 5.94984 16.7057 6.23317 16.7057 6.57484C16.7057 6.9165 16.4224 7.19984 16.0807 7.19984Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M12.3333 17.9582H5.66667C2.625 17.9582 0.875 16.2082 0.875 13.1665V6.08317C0.875 3.0415 2.625 1.2915 5.66667 1.2915H12.3333C15.375 1.2915 17.125 3.0415 17.125 6.08317V13.1665C17.125 16.2082 15.375 17.9582 12.3333 17.9582ZM5.66667 2.5415C3.28333 2.5415 2.125 3.69984 2.125 6.08317V13.1665C2.125 15.5498 3.28333 16.7082 5.66667 16.7082H12.3333C14.7167 16.7082 15.875 15.5498 15.875 13.1665V6.08317C15.875 3.69984 14.7167 2.5415 12.3333 2.5415H5.66667Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <a href="#0">Jan 20, 2024</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="blog-two__item">
+                            <a href="blog-details.html" class="blog__image d-block image radius0">
+                                <img src="assets/images/blog/blog-six-image3.jpg" alt="image">
+                            </a>
+                            <div class="blog-two__content p-4">
+                                <a href="#0" class="tag">Marketing</a>
+                                <h3><a href="blog-details.html" class="primary-hover">Make Your Own Expanding
+                                        Contracting Content</a></h3>
+                                <ul class="blog-info mt-20">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.5436 5.19275C14.5436 7.69093 12.499 9.7355 10.0008 9.7355C7.50268 9.7355 5.45811 7.69093 5.45811 5.19275C5.45811 2.69457 7.50264 0.65 10.0008 0.65C12.499 0.65 14.5436 2.69458 14.5436 5.19275Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                            <path
+                                                d="M18.2644 14.6706C18.1052 14.9458 17.9241 15.2073 17.7169 15.4766L17.7168 15.4765L17.7089 15.4873C17.4204 15.8788 17.0845 16.2373 16.7295 16.5924C16.4326 16.8892 16.0933 17.186 15.7568 17.4385C14.0794 18.6911 12.0622 19.3499 9.97818 19.3499C7.8984 19.3499 5.8851 18.6938 4.2098 17.4461C3.84591 17.1504 3.51371 16.8792 3.2269 16.5924L3.21993 16.5854L3.21276 16.5787C2.85667 16.2436 2.54242 15.8877 2.24749 15.4874L2.24751 15.4873L2.24417 15.4829C2.06196 15.24 1.87324 14.9756 1.71923 14.7169C1.83622 14.4559 1.98458 14.1847 2.14525 13.9526L2.14536 13.9527L2.15288 13.9413C3.06988 12.5556 4.53709 11.6388 6.16646 11.4148L6.18604 11.4121L6.20542 11.4082C6.2309 11.4031 6.29498 11.4117 6.34551 11.4496L6.3455 11.4496L6.34951 11.4525C7.41654 12.2401 8.68633 12.6453 10.0008 12.6453C11.3153 12.6453 12.5851 12.2401 13.6522 11.4525L13.6522 11.4525L13.6562 11.4496C13.6716 11.438 13.7404 11.408 13.8492 11.4167C15.4689 11.6435 16.9121 12.5568 17.8525 13.9468L17.8524 13.9469L17.8564 13.9526C18.0166 14.1839 18.1557 14.4231 18.2644 14.6706Z"
+                                                stroke="#2EB97E" stroke-width="1.3" />
+                                        </svg>
+                                        <a href="#0">By Admin</a>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66406 3.7915C5.3224 3.7915 5.03906 3.50817 5.03906 3.1665V0.666504C5.03906 0.324837 5.3224 0.0415039 5.66406 0.0415039C6.00573 0.0415039 6.28906 0.324837 6.28906 0.666504V3.1665C6.28906 3.50817 6.00573 3.7915 5.66406 3.7915ZM12.3307 3.7915C11.9891 3.7915 11.7057 3.50817 11.7057 3.1665V0.666504C11.7057 0.324837 11.9891 0.0415039 12.3307 0.0415039C12.6724 0.0415039 12.9557 0.324837 12.9557 0.666504V3.1665C12.9557 3.50817 12.6724 3.7915 12.3307 3.7915ZM6.08073 11.0832C5.9724 11.0832 5.86406 11.0582 5.76406 11.0165C5.65573 10.9748 5.5724 10.9165 5.48906 10.8415C5.33906 10.6832 5.2474 10.4748 5.2474 10.2498C5.2474 10.1415 5.2724 10.0332 5.31406 9.93317C5.35573 9.83317 5.41406 9.7415 5.48906 9.65817C5.5724 9.58317 5.65573 9.52484 5.76406 9.48317C6.06406 9.35817 6.43906 9.42484 6.6724 9.65817C6.8224 9.8165 6.91406 10.0332 6.91406 10.2498C6.91406 10.2998 6.90573 10.3582 6.8974 10.4165C6.88906 10.4665 6.8724 10.5165 6.8474 10.5665C6.83073 10.6165 6.80573 10.6665 6.7724 10.7165C6.7474 10.7582 6.70573 10.7998 6.6724 10.8415C6.51406 10.9915 6.2974 11.0832 6.08073 11.0832ZM8.9974 11.0832C8.88906 11.0832 8.78073 11.0582 8.68073 11.0165C8.5724 10.9748 8.48906 10.9165 8.40573 10.8415C8.25573 10.6832 8.16406 10.4748 8.16406 10.2498C8.16406 10.1415 8.18906 10.0332 8.23073 9.93317C8.2724 9.83317 8.33073 9.7415 8.40573 9.65817C8.48906 9.58317 8.5724 9.52484 8.68073 9.48317C8.98073 9.34984 9.35573 9.42484 9.58906 9.65817C9.73906 9.8165 9.83073 10.0332 9.83073 10.2498C9.83073 10.2998 9.8224 10.3582 9.81406 10.4165C9.80573 10.4665 9.78906 10.5165 9.76406 10.5665C9.7474 10.6165 9.7224 10.6665 9.68906 10.7165C9.66406 10.7582 9.6224 10.7998 9.58906 10.8415C9.43073 10.9915 9.21406 11.0832 8.9974 11.0832ZM11.9141 11.0832C11.8057 11.0832 11.6974 11.0582 11.5974 11.0165C11.4891 10.9748 11.4057 10.9165 11.3224 10.8415L11.2224 10.7165C11.1908 10.6701 11.1656 10.6196 11.1474 10.5665C11.1233 10.5193 11.1065 10.4687 11.0974 10.4165C11.0891 10.3582 11.0807 10.2998 11.0807 10.2498C11.0807 10.0332 11.1724 9.8165 11.3224 9.65817C11.4057 9.58317 11.4891 9.52484 11.5974 9.48317C11.9057 9.34984 12.2724 9.42484 12.5057 9.65817C12.6557 9.8165 12.7474 10.0332 12.7474 10.2498C12.7474 10.2998 12.7391 10.3582 12.7307 10.4165C12.7224 10.4665 12.7057 10.5165 12.6807 10.5665C12.6641 10.6165 12.6391 10.6665 12.6057 10.7165C12.5807 10.7582 12.5391 10.7998 12.5057 10.8415C12.3474 10.9915 12.1307 11.0832 11.9141 11.0832ZM6.08073 13.9998C5.9724 13.9998 5.86406 13.9748 5.76406 13.9332C5.66406 13.8915 5.5724 13.8332 5.48906 13.7582C5.33906 13.5998 5.2474 13.3832 5.2474 13.1665C5.2474 13.0582 5.2724 12.9498 5.31406 12.8498C5.35573 12.7415 5.41406 12.6498 5.48906 12.5748C5.7974 12.2665 6.36406 12.2665 6.6724 12.5748C6.8224 12.7332 6.91406 12.9498 6.91406 13.1665C6.91406 13.3832 6.8224 13.5998 6.6724 13.7582C6.51406 13.9082 6.2974 13.9998 6.08073 13.9998ZM8.9974 13.9998C8.78073 13.9998 8.56406 13.9082 8.40573 13.7582C8.25573 13.5998 8.16406 13.3832 8.16406 13.1665C8.16406 13.0582 8.18906 12.9498 8.23073 12.8498C8.2724 12.7415 8.33073 12.6498 8.40573 12.5748C8.71406 12.2665 9.28073 12.2665 9.58906 12.5748C9.66406 12.6498 9.7224 12.7415 9.76406 12.8498C9.80573 12.9498 9.83073 13.0582 9.83073 13.1665C9.83073 13.3832 9.73906 13.5998 9.58906 13.7582C9.43073 13.9082 9.21406 13.9998 8.9974 13.9998ZM11.9141 13.9998C11.6974 13.9998 11.4807 13.9082 11.3224 13.7582C11.2453 13.6799 11.1856 13.5862 11.1474 13.4832C11.1057 13.3832 11.0807 13.2748 11.0807 13.1665C11.0807 13.0582 11.1057 12.9498 11.1474 12.8498C11.1891 12.7415 11.2474 12.6498 11.3224 12.5748C11.5141 12.3832 11.8057 12.2915 12.0724 12.3498C12.1307 12.3582 12.1807 12.3748 12.2307 12.3998C12.2807 12.4165 12.3307 12.4415 12.3807 12.4748C12.4224 12.4998 12.4641 12.5415 12.5057 12.5748C12.6557 12.7332 12.7474 12.9498 12.7474 13.1665C12.7474 13.3832 12.6557 13.5998 12.5057 13.7582C12.3474 13.9082 12.1307 13.9998 11.9141 13.9998ZM16.0807 7.19984H1.91406C1.5724 7.19984 1.28906 6.9165 1.28906 6.57484C1.28906 6.23317 1.5724 5.94984 1.91406 5.94984H16.0807C16.4224 5.94984 16.7057 6.23317 16.7057 6.57484C16.7057 6.9165 16.4224 7.19984 16.0807 7.19984Z"
+                                                fill="#2EB97E" />
+                                            <path
+                                                d="M12.3333 17.9582H5.66667C2.625 17.9582 0.875 16.2082 0.875 13.1665V6.08317C0.875 3.0415 2.625 1.2915 5.66667 1.2915H12.3333C15.375 1.2915 17.125 3.0415 17.125 6.08317V13.1665C17.125 16.2082 15.375 17.9582 12.3333 17.9582ZM5.66667 2.5415C3.28333 2.5415 2.125 3.69984 2.125 6.08317V13.1665C2.125 15.5498 3.28333 16.7082 5.66667 16.7082H12.3333C14.7167 16.7082 15.875 15.5498 15.875 13.1665V6.08317C15.875 3.69984 14.7167 2.5415 12.3333 2.5415H5.66667Z"
+                                                fill="#2EB97E" />
+                                        </svg>
+                                        <a href="#0">Jan 26, 2024</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog area end here -->
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer-six-area sub-bg-two">
+        <div class="footer-six__shape">
+            <img src="assets/images/shape/footer-six-shape.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30">
+                        <img src="assets/images/logo/logo.svg" alt="logo">
+                    </a>
+                    <p>Phasellus ultricies aliquam volutpat
+                        ullamcorper laoreet neque, a lacinia
+                        curabitur lacinia mollis</p>
+                    <ul class="mt-25">
+                        <li>
+                            <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.99991 0C3.92603 0 0.611816 3.31421 0.611816 7.38809C0.611816 8.72925 1.21329 10.1717 1.2385 10.2325C1.43276 10.6936 1.81608 11.4098 2.09248 11.8296L7.1581 19.505C7.3654 19.8196 7.67222 20 7.99991 20C8.32759 20 8.63442 19.8196 8.84172 19.5054L13.9078 11.8296C14.1846 11.4098 14.5675 10.6936 14.7618 10.2325C14.787 10.1721 15.388 8.72968 15.388 7.38809C15.388 3.31421 12.0738 0 7.99991 0ZM13.9604 9.89526C13.787 10.3086 13.4302 10.9748 13.182 11.3512L8.11594 19.0269C8.01599 19.1786 7.98426 19.1786 7.88431 19.0269L2.81825 11.3512C2.5701 10.9748 2.21329 10.3081 2.03989 9.89483C2.0325 9.87701 1.481 8.54933 1.481 7.38809C1.481 3.79357 4.40538 0.869187 7.99991 0.869187C11.5944 0.869187 14.5188 3.79357 14.5188 7.38809C14.5188 8.55106 13.966 9.88223 13.9604 9.89526Z"
+                                    fill="#2EB97E" />
+                                <path
+                                    d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z"
+                                    fill="#2EB97E" />
+                            </svg>
+                            <a href="tel:+2086660112" class="p-0">+208-666-0112</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Quick Link</h3>
+                    <ul>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i>About Learnit</a></li>
+                        <li><a href="course.html"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
+                        </li>
+                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor</a>
+                        </li>
+                        <li><a href="team-details.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor
+                                Details</a>
+                        </li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul>
+                        <li><a href="faq.html"><i class="fa-regular fa-angles-right me-1"></i> FAQ’s</a></li>
+                        <li><a href="privacy.html"><i class="fa-regular fa-angles-right me-1"></i>
+                                Privacy Policy</a>
+                        </li>
+                        <li><a href="error.html"><i class="fa-regular fa-angles-right me-1"></i> Terms & Condition</a>
+                        </li>
+                        <li><a href="error.html"><i class="fa-regular fa-angles-right me-1"></i> Register/Login</a></li>
+                        <li><a href="coming-soon.html"><i class="fa-regular fa-angles-right me-1"></i> Coming Soon</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item newsletter-six wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Join Our Newsletter</h3>
+                    <p class="mb-20">Lorem ipsum dolor amet o adi pisicing elit sed eiusm. </p>
+                    <div class="footer-newsletter__six">
+                        <input type="text" placeholder="Email Address">
+                        <button>Sing Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div
+                    class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
+                        by <a href="#0" class="primary-color">Learnit</a></p>
+                    <div class="social-icons wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#0"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <ul class="d-flex footer-six__info align-items-center gap-2 wow fadeInDown" data-wow-delay="400ms"
+                        data-wow-duration="1500ms">
+                        <li><a href="#0">Privacy Policy</a></li>
+                        <li><span class="info-line"></span></li>
+                        <li><a href="#0">Terms & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
