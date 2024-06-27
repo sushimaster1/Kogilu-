@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="script" href="assets/js/news.js">
 </head>
 
 <body>
@@ -61,7 +63,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <a href="#0">6391 Elgin St. Celina, USA</a>
+                        <a href="#0">Kogilu Main Rd, Yelahanka, Bengaluru</a>
                     </li>
                     <li><span></span></li>
                     <li>
@@ -77,7 +79,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <a href="#0">info@example.com</a>
+                        <a href="#0">admissions-kogilu@presidency.edu.in</a>
                     </li>
                 </ul>
                 <ul class="socila-link">
@@ -97,7 +99,7 @@
         <div class="header__container">
             <div class="header__main">
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo/logo.svg" alt="logo">
+                    <img src="assets/images/logo/logo-_length-Blue.png" alt="logo">
                 </a>
                 <div class="main-menu">
                     <nav>
@@ -274,8 +276,7 @@
                         <button><i class="fa-regular fa-magnifying-glass"></i></button>
                     </div>
                     <div class="menu-btns d-none d-lg-flex">
-                        <a class="active" href="#0">Login</a>
-                        <a href="#0">Sign Up</a>
+                        <a class="active" href="#0">Admissions</a>
                     </div>
                 </div>
                 <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
@@ -377,34 +378,31 @@
             </div>
             <div class="container">
                 <div class="banner__content">
-                    <h5 class="mb-10 primary-color text-capitalize wow fadeInUp" data-wow-delay="00ms"
-                        data-wow-duration="1500ms">ONLINE LARNING COURSE</h5>
-                    <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Top Instructors Teach
-                        <span class="primary-color">Skills</span>
+                    <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">ABOUT US
                     </h1>
-                    <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Aonsectetur
-                        adipiscing elit Aenean scelerisque augue vitae consequat Quisque eget
-                        congue!</p>
-                    <a href="course.html" class="btn-one mt-50 wow fadeInUp" data-wow-delay="600ms"
-                        data-wow-duration="1500ms">Explore Courses<i class="fa-light fa-arrow-right-long"></i></a>
+                    <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Welcome to Presidency PU College Kogilu,
+                         Yelahanka present in the heart of bengaluru. 
+                        Presidency PU College Kogilu was founded in the year 2019. </p>
+                    <a href="about.html" class="btn-one mt-50 wow fadeInUp" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
                 </div>
             </div>
             <div class="banner__hero">
                 <div class="banner__info" data-depth="0.03">
                     <img src="assets/images/icon/banner-hero-icon.png" alt="icon">
                     <div>
-                        <h5 class="fs-28"><span class="count secondary-color">6,570</span>+</h5>
+                        <h5 class="fs-28"><span class="count secondary-color">1,200</span>+</h5>
                         <span class="fs-14">Active Student</span>
                     </div>
                 </div>
                 <div class="banner__info info2" data-depth="0.03">
                     <img src="assets/images/icon/banner-hero-icon2.png" alt="icon">
                     <div>
-                        <h5 class="fs-28"><span class="count secondary-color">20</span>k+</h5>
-                        <span class="fs-14">Online Courses</span>
+                        <h5 class="fs-28"><span class="count secondary-color">10</span>+</h5>
+                        <span class="fs-14">Courses</span>
                     </div>
                 </div>
-                <img src="assets/images/banner/hero.png" alt="image">
+                <img src="assets/images/banner/PU_Home.jpg" alt="image" height="579" width="550">
                 <img class="hero-shape1" src="assets/images/shape/banner-hero-line.png" alt="shape">
                 <img class="hero-shape2" src="assets/images/shape/banner-hero-shape.png" alt="shape">
                 <img class="hero-shape3" src="assets/images/shape/banner-hero-circle.png" alt="shape">
@@ -416,28 +414,30 @@
         <!-- Brand area start here -->
         <div class="brand-area pt-60 pb-60 bor-bottom">
             <div class="container">
-                <div class="swiper brand__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image1.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image2.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image3.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image4.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image5.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-image6.png" alt="image">
-                        </div>
-                    </div>
+                <div class="news-container">
+                    <p id="student-news"></p>
                 </div>
+                
+                <script>
+                    const newsList = [
+                        "News 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "News 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "News 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                        "News 4: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    ];
+                
+                    const newsElement = document.getElementById("student-news");
+                    let newsIndex = 0;
+                
+                    function displayNews() {
+                        newsElement.textContent = newsList[newsIndex];
+                        newsIndex = (newsIndex + 1) % newsList.length;
+                    }
+                
+                    displayNews(); 
+                
+                    setInterval(displayNews, 3000); // Change news every 3 seconds
+                </script>
             </div>
         </div>
         <!-- Brand area end here -->
@@ -455,7 +455,7 @@
                                 <img src="assets/images/about/about-image1.png" alt="image">
                                 <img class="sm-image" src="assets/images/about/about-image2.png" alt="image">
                                 <div class="count-info">
-                                    <h5 class="primary-color fs-28"><span class="count primary-color">25</span>+</h5>
+                                    <h5 class="primary-color fs-28"><span class="count primary-color">15</span>+</h5>
                                     <span class="fs-14">Years Experience</span>
                                 </div>
                             </div>
@@ -464,16 +464,14 @@
                     <div class="col-xl-7">
                         <div class="about__right-wrp">
                             <div class="section-header">
-                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT US</h5>
-                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Learn & Grow
-                                    Your <span>Skills <img src="assets/images/shape/header-shape.png"
-                                            alt="shape"></span> From Anywhere
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Learn From</h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">LEARN AND GROW FROM OUR 
+                                     <span>IIT’ian JEE/NEET <img src="assets/images/shape/header-shape.png"
+                                            alt="shape"></span> TRAINERS
                                 </h2>
-                                <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Aonsectetur
-                                    adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget
-                                    congue
-                                    velit in cursus leo sodales the
-                                    turpis euismod quis sapien euismod quis sapien the.</p>
+                                <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms"><b>Who are behind the success of JEE AIR 1, 
+                                    AIR 3 and many more <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEET -  AIR 2, AIR 4, AIR 15 and many more</b></p>
                             </div>
                             <div class="about__right-part mt-30 wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
@@ -496,7 +494,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="about.html" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
+                            <a href="course.html" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
                         </div>
                     </div>
@@ -1259,7 +1257,7 @@
             <div class="footer__wrp pt-100 pb-100">
                 <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <a href="index.html" class="logo mb-30">
-                        <img src="assets/images/logo/logo.svg" alt="logo">
+                        <img src="assets/images/logo/logo-_length-Blue.png" alt="logo">
                     </a>
                     <p>Phasellus ultricies aliquam volutpat
                         ullamcorper laoreet neque, a lacinia
@@ -1275,7 +1273,7 @@
                                     d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
                                     fill="#2EB97E" />
                             </svg>
-                            <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                            <a href="#0" class="p-0">Kogilu Main Rd, Yelahanka, Bengaluru</a>
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
